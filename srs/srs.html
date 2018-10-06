@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Software Requirements Specification</title>
+
+	<link rel="stylesheet" type="text/css" href="./styles/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+    
+    
+<body>
+<div class="container" >
+<div id="srs">
+    
+    <page size="A4">
+		<div id="coverPage"> 
+			<span class="coverFont">Software Requirements Specification</span>
+			<br>
+			<span>for</span>
+			<br>
+			<span class="projectName"> Medicine Clash Detector </span>
+			<div class="coverMid">
+				<span> Version 1.0 approved </span>
+				<br>
+				<span> Prepared by "TEAM: 2"</span>
+		        <br>
+				<span> Medicine Clash Detector </span>
+				<br>
+				<span> Date:8th October 2018</span>	
+			</div>
+			<div id="foot">
+	        	<span>Software Requirements Specification (08/10/18)</span>
+	     	</div>
+		 </div>
+	</page>
+
+  	<page size="A4">  
+	    <div id="tableContent">
+
+	  	<h1 >Table of Content </h1>
+
+	  	<ul>
+	  	  	<li>
+	            <a href="#a1"> <h3 >1. Introduction </h3></a>
+	  	  		<ul>
+		  	  		<a href="#1.1"><li>1.1	Purpose	 </li></a>
+		  	  		<a href="#1.2"><li>1.2	Document Conventions</li></a>
+		  	  		<a href="#1.3"><li>1.3	Intended Audience and Reading Suggestions</li></a>
+		  	  		<a href="#1.4"><li>1.4	Product Scope</li></a>
+		  	  		<a href="#1.5"><li>1.5	References </li></a>
+	  	  		</ul>  
+	      	</li>
+	  	  
+	  	 	<li>
+	  	 		<a href="#a2"><h3>2. Overall Description </h3></a>
+	  	  		<ul>
+	  	  			<a href="#2.1"><li>2.1	Product Perspective </li></a>
+	  	  			<a href="#2.2"><li>2.2	Product Functions </li></a>
+	  	  			<a href="#2.3"><li>2.3	User Classes and Characteristics</li></a>
+	  	  			<a href="#2.4"><li>2.4	Operating Environment</li></a>
+	  	  			<a href="#2.5"><li>2.5 Design and Implementation Constraints </li></a>
+	  	  			<a href="#2.6"><li>2.6	User Documentation</li></a>
+	  	  			<a href="#2.7"><li>2.7	Assumptions and Dependencies</li></a>
+	  	  		</ul>  		
+	  	  	</li>
+
+	  	  	<li>
+	  	  		<a href="#a3"><h3 >3. External Interface Requirements </h3></a>
+	  	  		<ul>
+	  	  			<a href="#3.1"><li>3.1	User Interfaces	 </li></a>
+	  	  			<a href="#3.2"><li>3.2	Software Interfaces</li></a>
+	  	  			<a href="#3.3"><li>3.3	Communications Interfaces</li></a>
+	  	  			<a href="#3.4"><li>3.4	Other Nonfunctional Requirements</li></a>
+	  	  		</ul>  		
+	  	  	</li>
+
+	  	  	<li>
+	  	  		<a href="#a4"><h3>4. System Features</h3></a>
+	  	  		<ul>
+	  	  			<a href="#4.1"> <li>4.1 Create Account </li></a>
+	  	  			<a href="#4.2"> <li>4.2 Delete Account </li></a>
+	  	  			<a href="#4.3"> <li>4.3 Login </li></a>
+	  	  			<a href="#4.4"> <li>4.4 Logout </li></a>
+	  	  			<a href="#4.5"> <li>4.5 Add Medicine </li></a>
+	  	  			<a href="#4.6"><li>4.6 Delete Medicine</li></a>
+	  	  		</ul>  		
+	  	  	</li>
+
+	  	  	<li>
+	  	  		<a href="#a5"> <h3 >5. Other Nonfunctional Requirements</h3> </a>
+	  	  		<ul>
+	  	  			<li>5.1	Performance Requirements</li>
+	  	  			<li>5.2	Safety Requirements </li>
+	  	  			<li>5.3	Security Requirements</li>
+	  	  			<li>5.4	Software Quality Attributes</li>
+	  	  			<li>5.5	Business Rules</li>
+	  	  		</ul>  		
+	  	  	</li>
+
+	  	</ul> 
+		</div>
+    </page>
+
+    <page size="A4">
+	<div id="revision"> 
+		<h3>REVISION HISTORY </h3>
+
+	<table border="3px" width="600px" height="100px">
+		<tr>
+			<td>Name</td>
+			<td>Date</td>
+			<td>Reason For Changes</td>
+			<td>Version</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	 </div>
+	</page>
+    
+	<!--intro -->
+     <page size="A4">  
+	<div id="a1" >
+		
+		<h1>1. Introduction</h1>
+		<br>
+		<h4 id="1.1">1.1 Purpose</h4>
+		<p>
+			This purpose of this product is to build a system that will be able to detect if there are any clash among the medicines the user is taking and it will alert the user accordingly.
+		</p>
+		<h4 id="1.2">1.2 Document Conventions </h4>
+		<p>
+			This document follows MLA Format. Bold-faced text has been used to emphasize section and sub-section headings. Highlighting is to point out words in the glossary and italicized text is used to label and recognize diagrams.
+
+		</p>
+		<h4 id="1.3">1.3 Intended Audience and Reading Suggestions</h4>
+		<p>
+			This document is intended for project manager who will be supervising this product and the users and developers.  This SRS is divided into five modules and second module will discuss about the description of the product, how this product functions and how the system will be able to interact with the users
+			And the third module will discuss about the various interfaces that will be used by the system.
+			And fourth module will only discuss elaborately about the system features.  And the last module will illustrate about the nonfunctional requirements which a user won’t be able to see. And it is advised to read this SRS as per the table of contents.
+		</p>
+		<h4 id="1.4">1.4 Product Scope</h4>
+		<p>
+			Now a day's people takes lots of medicines as they are prescribed by different doctors but these drugs can interact with each other in harmful manner and cause health damage. This software will be able to identify those drugs with the help of an image of the drugs and also by text input name of the drugs by the user. And by this way this software will reduce medication clashing risk.
+			Though we will be consulting medical literatures for building this system yet we highly recommend to consult with respective physicians about this if any alert occurs. 
+		</p>
+		<h4 id="1.5">1.5 References</h4>
+		<p>
+			Please consult the attached project scope document for further information regarding
+			project scope. A use case diagram has been attached to accompany sections 3.1. A user manual is included to accompany section 2.6: User Documentation. Product mock-ups and Requirements Validation Plan have also been included
+			for general reference.
+		</p>
+	</div>
+    </page>
+    
+     <page size="A4" >  
+	   <div id="a2">
+		
+		<h1>2. Description Overall </h1>
+		<br>
+		<h4 id="2.1">2.1 Product Perspective</h4>
+		<p>
+			This software product is being developed for the patients; keeping in mind the situation of Bangladesh. In our country most of the people go to the doctors however they like. This causes a problem which is, the doctors who are prescribing the medicines for the same patient do not have any idea what the others doctors have prescribed. As a result there could be prescribed medicines which could clash with each other. This could be fatal. Our goal is to solve this problem. We will have application both for Android and iOS platforms. Our application will alert users if they are taking medicines which could clash with each other.
+		</p>
+		<h4 id="2.2">2.2 Product Functions</h4>
+		 <h5>Medicine Clash Detector features:</h5>
+			<ol>
+				<li>Holds all the record of the medicines the user is taking.</li>
+				<li>Capture image to add new medicine/s.</li>
+				<li>Add medicine option by typing.</li>
+				<li>Users can remove medicines if they want. </li>
+				<li>Fully functional offline use.</li>
+				<li>Users can delete his/her account.</li>
+			</ol>
+
+		<h4 id="2.3">2.3 User Classes and Characteristics</h4>
+		<p>
+			We only have patients or the users in our system. They will register in the system and login to update their medicine history. They system will be implemented that way so that no duplicate email or id is granted. So no need for any admin to maintain the user accounts. Users will have the authority to delete their own account. 
+		</p>
+		<h4 id="2.4">2.4 Operating Environment</h4>
+		<p> 
+			Our applications will run on both Android and iOS platform.
+		</p>
+	  </div>
+    </page>
+
+    <page size="A4" >  
+	   <div id="a2">
+		<h4 id="2.5">2.5 Design and Implementation Constraint</h4>
+		<p>
+			This is a moduler system and it might need to be change as the client asks. The constraint is the client demands. 
+		</p>
+
+
+
+
+		<h4 id="2.6">2.6 User Documentation</h4>
+		<p>
+			For user documentation and information, please consult section 4: External Interface Requirements and attached user manual.
+
+			<h4>2.7 Assumptions and Dependencies</h4>
+		</p>
+			We will not have any online dependencies other that downloading the app. We want the database for the app to be saved in the phone and we do not want to keep and online database.  
+		<p>
+	</div>
+	</page>
+
+
+	<page size="A4" >  
+		<div id="a3">
+			<h1>3. External Interface Requirements</h1>
+			<br>
+			<div>
+				<h4 id="3.1">3.1 User Interfaces</h4>
+				<p>
+					The Medicine Clash Detector user interface has been specifically designed with their customers in mind, giving them convenience while they transaction.
+				
+					The home screen offers a menu.The user can select one of the options on the menu, and is taken to the respective screen. Every screen displays respective feature button/s.The user can click on any one of the options and is taken to the screen of their choice. In addition, clicking on the login button displays the login window.
+				
+					This project offers easy click options to navigate the screens efficiently.
+				</p>	
+				
+				<img src="diagram.png" height="600px" width="600px" align="center">
+			</div>
+		</div>
+	</page>
+
+	<page size="A4">
+		<img style="margin: 20px" src="./Demo UI/1.1-Log In.png" height="500px" width="300px" align="left">
+		<img style="margin: 20px" src="./Demo UI/2.1-Registration.png" height="500px" width="300px" align="right">
+		<img style="margin: 20px" src="./Demo UI/3.1-Home.png" height="500px" width="300px" align="left">
+		<img style="margin: 20px" src="./Demo UI/4.1-Nav Bar.png" height="500px" width="300px" align="right">
+	</page>
+
+	<page size="A4">
+		<img style="margin: 20px" src="./Demo UI/5.1-Add Medicine.png" height="500px" width="300px" align="left">
+		<img style="margin: 20px" src="./Demo UI/6.1-Remove Medicine.png" height="500px" width="300px" align="right">
+		<img style="margin: 20px" src="./Demo UI/7.1-Clash Status.png" height="500px" width="300px" align="left">
+		<img style="margin: 20px" src="./Demo UI/8.1-Delete Account.png" height="500px" width="300px" align="right">
+	</page>
+
+	<page size="A4" >  
+		<div id="a3">
+	<div>
+		<h4 id="3.2">3.2 Software Interfaces</h4>
+		<p>  
+			The Medicine Clash Detector runs on Android and iOS. The reason for the choice of the OS is due to the popular smart phone models' usage of these OS. The Medicine Clash Detector features User Friendly Software Interface that makes it convenient to use. The Medicine Clash is planned to use offline.That helps users to get updated always at anytime anywhere.
+			The device and the Server contains an in-built language database containing the list of the medicines the user is taking.
+		</p>
+	</div>
+
+	<div>
+		<h4 id="3.3">3.3  Communications Interfaces</h4>
+		<p>
+			Users just need to have a smart phone to use this product.
+		</p>
+	</div>
+</div>
+</page>
+
+
+
+<page size="A4" > 
+	<div id="a4">
+	<h2>4.System Features</h2>
+	<br>
+		<div>
+			<h4 id="4.1">4.1 Create new account</h4>
+			<span><b>Use Case name:</b> Create Account</span>
+			<br>
+			<span><b>Actor:</b>User</span>
+			<br>
+			<span><b>Type:</b> Primary</span>
+			<br>
+			<br>
+			<table class="table table-striped">
+					<tr>
+						<th scope="col">Actor Actions</th>
+						<th scope="col">System Response</th>
+					</tr>	
+
+					<tr>
+						<td>Include login</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>1. When clicking On "New User"</td>
+						<td>2. A Create Account Form will be shown</td>
+					</tr>
+					<tr>
+						<td>3. After fill out the form and clicking Submit Button or choosing between Google account or Facebook</td>
+						<td>4. A confirmation mail will be sent</td>
+					</tr>
+					<tr>
+						<td>5. If user confirms</td>
+						<td>6. Account Will be Created successfully</td>
+					</tr>
+					<tr>
+						<td>7. If Press "No"</td>
+						<td>8. System will be in the same account form</td>
+					</tr>			
+			</table>
+			<p>
+				Alternative cause of action:
+				<ul>
+					<li>4.1.1 If system find that it has already account with the same username, it will show an error message</li>
+				</ul>
+			</p>
+		</div>
+		<br>
+	</div>
+</page>
+
+
+<page size="A4" > 
+	<div id="a4">
+		<div>
+			<h4 id="4.2">4.2 Delete Account</h4>
+			<span><b>Use Case name:</b> Delete Account</span>
+			<br>
+			<span><b>Actor:</b> User</span>
+			<br>
+			<span><b>Type:</b> Primary</span>
+			<br>
+			<br>
+			<table class="table table-striped">
+				<tr>
+					<th scope="col">Actor Actions</th>
+					<th scope="col">System Response</th>
+				</tr>
+				<tr>
+					<td>Include login</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.If click on Delete Account menu </td>
+					<td>2.A new page will come with a Delete Account Button on it</td>
+				</tr>
+				<tr>
+					<td>3.If the button is clicked</td>
+					<td>4.System will delete the corresponding account</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</page>
+
+<page size="A4">
+	<div id="a4">
+
+		<div>
+			<h4 id="4.3">4.3 Login</h4>
+			<span><b>Use Case name:</b> Login</span>
+			<br>
+			<span><b>Actor:</b> User</span>
+			<br>
+			<span><b>Type:</b> Primary</span>
+			<br>
+			<br>
+			<table class="table table-striped">
+				<tr>
+					<th scope="col">Actor Actions</th>
+					<th scope="col">System Response</th>
+				</tr>
+				<tr>
+					<td>1.Open up the app without any account logged in</td>
+					<td>2.The default page will be asking for email and password </td>
+				</tr>
+				<tr>
+					<td>3.After giving all credentials and clicking the login button</td>
+					<td>4.A page with option buttons will be served</td>
+				</tr>
+			</table>
+			<p>
+			Alternative cause of action:
+				<ul>
+					<li>4.3.1 If the password or username is wrong or doesn't exist,then 'Wrong Credential' message will be shown</li>
+				</ul>
+			</p>
+		</div>
+
+		<br>
+		<div>
+			<h4 id="4.4">4.4 Logout</h4>
+			<span><b>Use Casename:</b> Logout</span>
+			<br>
+			<span><b>Actor:</b> User</span>
+			<br>
+			<span><b>Type:</b> Primary</span>
+			<br>
+			<br>
+			<table class="table table-striped">
+				<tr>
+					<th scope="col">Actor Actions</th>
+					<th scope="col">System Response</th>
+				</tr>
+				<tr>
+					<td>Include login</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.After clicking "Logout" option</td>
+					<td>2.The user will be logged out and the login page will be shown again</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</page>
+<page size="A4">
+	<div id="a4">
+		<div>
+			<h4 id="4.5">4.5 Add Medicine</h4>
+			<span><b>Use Casename:</b> Add Medicine</span>
+			<br>
+			<span><b>Actor:</b> User</span>
+			<br>
+			<span><b>Type:</b> Primary</span>
+			<br>
+			<br>
+			<table class="table table-striped">
+				<tr>
+					<th scope="col">Actor Actions</th>
+					<th scope="col">System Response</th>
+				</tr>
+				<tr>
+					<td>Include login</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.Press the add medicine option</td>
+					<td>2.A menu with two options 'Take Photo' and 'Type the Medicine name' will appear</td>
+				</tr>
+				<tr>
+					<td>3.If take photo is clicked</td>
+					<td>4.Camera will be accessed and will ask the user to tap on the screen to focus on the medicine name</td>
+				</tr>
+				<tr>
+					<td>5.Tapping and focusing on the medicine name</td>
+					<td>6.Picture of the medicine name would be taken and converted in to text a page "With take more photo will appear"</td>
+				</tr>
+				<tr>
+					<td>7.If pressed yes</td>
+					<td>8.Camera will be again accessed and will ask the user to tap on the screen to focus on the medicine name again</td>
+				</tr>
+			</table>
+			<p>
+			Alternative course of action:
+				<ul>
+					<li>4.5.1 If user press 'Type the Medicine name' the app will ask the user to type the name of the medicine to add</li>
+				</ul>
+			</p>
+		</div>
+		<br>
+</div>
+</page>
+
+<page size="A4" > 
+	<div id="a4">
+
+		<div>
+			<h4 id="4.6">4.6 Delete Medicine</h4>
+			<span><b>Use Casename:</b> Delete Medicine</span>
+			<br>
+			<span><b>Actor:</b> User</span>
+			<br>
+			<span><b>Type:</b> Primary</span>
+			<br>
+			<br>
+			<table class="table table-striped">
+				<tr>
+					<th scope="col">Actor Actions</th>
+					<th scope="col">System Response</th>
+				</tr>
+				<tr>
+					<td>Include login</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1.Press the Delete Medicine option</td>
+					<td>2.A menu will appear with the names of the medicines the user is taking with cross icon on the right side of them</td>
+				</tr>
+				<tr>
+					<td>3.If user cross any medicine</td>
+					<td>4.System will remove the medicine from the list</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+	</div>
+</page>
+
+<page size="A4" > 
+	<div id="a5">
+		<div>
+			<h4> 6. Other Requirments.. </h4>
+	  	   	<h4>Appendix A: Glossary </h4>
+	  	    <h4>Appendix B: Analysis Models </h4>
+	  	    <h4>Appendix C: To Be Determined List</h4>
+	  	    <h4>References:</h4>
+	  	    <div>
+	  	    	<ul>
+					<li><a href="./diagram.png">Use Case Diagram</a></li>
+				</ul>
+	  		</div>
+		</div>
+	</div>
+</page>
+</body>
+</div>
+</html>
