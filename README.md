@@ -10,8 +10,7 @@ So our goal is to build an app for both iOS and Android platform(since these are
 
 The app will convert the image of the medicines into texts and search accordingly. We will use available API for this. 
 
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* 1.0
 
 ### How do I get set up? ###
 
