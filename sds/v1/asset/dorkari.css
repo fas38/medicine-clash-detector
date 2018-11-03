@@ -1,0 +1,105 @@
+#coverPage{
+
+  font-size: 1.5em;
+  line-height: 2.0em;
+  
+  margin: 15% 10% 1% 10%;
+  /*top right bottom left*/
+  padding: 20% 1% 70% 12%;
+  border-top-style: solid;
+}
+.coverFont{
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.projectName{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.coverMid{
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+#tableContent{
+  font-size: 1.0 em;
+  /*top right bottom left*/
+  margin: 12% 1% 1% 6%;
+  padding: 2% 1% 10% 5%;
+}
+
+#revision{
+  margin: 12% 1% 1% 6%;
+  padding: 2% 1% 10% 5%;
+}
+
+#foot{
+    font-family: Times,serif;
+    font-size: 9.1px;
+    color: rgb(0,0,0);
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    padding: 
+}
+
+#a1,#a2,#a3,#a4,#a5{
+  margin: 12% 1% 1% 0%;
+  padding: 2% 0% 1% 10%;
+}
+
+table{
+  border-collapse: collapse;
+  align:center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  padding: 10mm 10mm;
+}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+page[size="A3"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="portrait"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+page[size="A5"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="portrait"] {
+  width: 21cm;
+  height: 14.8cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
+
+body {
+  background: rgb(204,204,204); 
+    margin: 0 auto;
+    
+}

@@ -39,15 +39,6 @@
   	  	<li>
   	  		<a href="#a5"> <h6 >5. API(Endpoints) Details</h6> </a>  		
   	  	</li>
-  	  	<li>
-  	  		<a href="#a6"> <h6 >6. Sequence Diagram</h6> </a>
-  	  		<ul>
-  	  			<a href="#6.1"><li>6.1	Sequence Diagram of Login </li></a>
-  	  			<a href="#6.2"><li>6.2	Sequence Diagram of Add Condition </li></a>
-  	  			<a href="#6.3"><li>6.3	Sequence Diagram of Add Medicine </li></a>
-  	  			<a href="#6.4"><li>6.4	Sequence Diagram of Clash Check </li></a>
-  	  		</ul>  		
-  	  	</li>
 	</ul>
 
 </div>
@@ -124,28 +115,6 @@
 	  	  		
 	  	  	</li>
 
-	  	  	<li>
-	  	  		<h3>
-	  	  			<a href="#a6">6. Sequence Diagram</a>
-	  	  		</h3>
-
-	  	  		<ul>
-	  	  			<li>
-	  	  				<a href="#6.1">6.1	Sequence Diagram of Login</a>
-	  	  			</li>
-	  	  			<li>
-	  	  				<a href="#6.2">6.2	Sequence Diagram of Add Condition </a>
-	  	  			</li>
-	  	  			<li>
-	  	  				<a href="#6.3">6.3	Sequence Diagram of Add Medicine </a>
-	  	  			</li>
-	  	  			<li>
-	  	  				<a href="#6.4">6.4	Sequence Diagram of Clash Check </a>
-	  	  			</li>
-  	  			</ul>
-	  	  		
-	  	  	</li>
-
 	  	</ul>
 		</div>
     </page>
@@ -162,10 +131,10 @@
 					<td>Version</td>
 				</tr>
 				<tr>
-					<td>New</td>
-					<td>04/11/2018</td>
-					<td>Changed Architectural Pattern</td>
-					<td>2.0</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</table>
 		</div>
@@ -177,26 +146,28 @@
 			<div>
 				<h1>1. Architectural Pattern </h1>
 				<p>
-					For this project, we are using Model View View-Model (MVVM) pattern. It has three parts:
+					For this project, we are using Observer pattern within Model View Controller (MVC) pattern. It has four parts:
 					<br>
 					<ul>
 						<li>Model</li>
 						<li>View</li>
-						<li>View-Model</li>
+						<li>Controller</li>
+						<li>Observer</li>
 					</ul>
 				</p>
 				<br>
-				<img src="./asset/img/MVVM-Pattern.png" width="450px" height="450px">
+				<img src="./asset/img/Observer-Pattern-within-MVC.png" width="400px" height="200px">
 				<br>
 				<br>
 				<br>
 				<p>
 					<ul>
-						<li>View: The user interface that is activities that are visible to the user and user input options are going to be included in View. View will observe for variables and actions exposed by View-models and provide the UI according to  that. </li>
-						<li>View-Model: View will interact with database thorough view-model. All the logics and data-manipulation are going to be included in view-model.</li>
-						<li>Model: The model handles the Data of the application. It is not tied to the view or view-model, and because of this, it lessens the complexity.</li>
-						<li>Repository: We will have a repository class through which view-model will access model and server data.</li>
+						<li>The Model helps to handle database. It is a data access layer that handles the data. </li>
+						<li>View represents the visualization of the data that model contains.</li>
+						<li>Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.</li>
+						<li>By implementing Observer interfaces we can eliminate coupling between the Model and View.</li>
 					</ul>
+
 				</p>
 			</div>
 		</div>
@@ -205,29 +176,13 @@
 	<page size="A4" >
 		<div id="a2">
 			<div>
-
-				<p>
-					We are using MVVM patterb in the project as it helps to write - manageable, maintainable, cleaner and testable code. MVVM is also supported by Google itself and many first-party libraries like lifecycle-aware components, LiveData, ViewModel and many more are available which we are going to use in our application.
-				</p>
-
-				<br>
-
-				<p>
-					We are using Room as object mapping library which is an ORM  for SQLite db. It provides compile time checks of SQLite statements and can return LiveData observables.
-				</p>
-
-				<br>
-				<br>
-				<br>
-
 				<h1>2. Component Interactions </h1>
 				<p>
 					Our selected platforms are IOS and Android.
 					For android app,we are going to use kotlin and for ios app, we are going to use swift. We are also using Google's "Mobile Vision API" to read text from images.
 					<br>
 					<br>
-					In database,we are using only local database. So online connection is not required to run both the IOS and Android version of the app. Online connection is only required while registering or logging in to the app; but to use the 
-					app online connection is not necessary.
+					In database,we are using only local database. So online connection is not required to run both the IOS and Android version of the app.
                     
 				</p>
 			</div>
@@ -371,62 +326,6 @@
 						<li>Node.js REST framework is a powerful and flexible toolkit for building Web APIs.</li>
 					</ul>
 					<img src="./asset/img/nodebanner1.png" width="600px" height="400px">
-				</p>
-			</div>
-		</div>
-	</page>
-
-	<page size="A4" >
-		<div id="a6">
-			<div>
-				<h1>6. Sequence Diagram </h1>
-				<p>
-					<ul>
-						<li id="6.1">1. Login</li>
-					</ul>
-					<img src="./PNGsOfSequenceDiagram/login.png" width="750px" height="1000px">
-				</p>
-			</div>
-		</div>
-	</page>
-
-	<page size="A4" >
-		<div id="a6">
-			<div>
-				<h1>6. Sequence Diagram </h1>
-				<p>
-					<ul>
-						<li id="6.2">2. Add Condition</li>
-					</ul>
-					<img src="./PNGsOfSequenceDiagram/addcondition.png" width="750px" height="1000px">
-				</p>
-			</div>
-		</div>
-	</page>
-
-	<page size="A4" >
-		<div id="a6">
-			<div>
-				<h1>6. Sequence Diagram </h1>
-				<p>
-					<ul>
-						<li id="6.3">3. Add Medicine</li>
-					</ul>
-					<img src="./PNGsOfSequenceDiagram/addmedicine.png" width="750px" height="1000px">
-				</p>
-			</div>
-		</div>
-	</page>
-
-	<page size="A4" >
-		<div id="a6">
-			<div>
-				<h1>6. Sequence Diagram </h1>
-				<p>
-					<ul>
-						<li id="6.4">4. Clash Check</li>
-					</ul>
-					<img src="./PNGsOfSequenceDiagram/clashcheck.png" width="750px" height="1000px">
 				</p>
 			</div>
 		</div>
