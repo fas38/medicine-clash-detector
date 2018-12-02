@@ -1,0 +1,699 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:2:1-93:12
+MERGED from [com.android.support:design:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/211492767a2b637fd00dffc960b9fde7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/58b7caa0628ee09808b57397eb08d8ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-storage:3.2.2] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-3.2.2.aar/8038da166cf3f9b9c1950ffc1da4a4f6/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/153823ba4f334addc3eb85f57de41b80/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/248f7a6ed27731551a6813ed91c76072/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/b81b5f9a06d588242036483a4c596b1d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/17ff3ec192e7ed94fd9c3c9b5f3ad213/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7f1eb2d3d57699b4262e19dc606d2f7c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d3732724947d2fd2d6c44cd0dbed920d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/519692d8daebed90d0d46c7192541c95/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/19d870b248d86db693b4cda540de52a1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/eb52dfa1c9cd14caa15bceda942bf3d9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/88ebe383b8c6dd8f36ed69fa63fb195d/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/02b0c87959434b8d0d2d3087be4d8dd4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/89e6cd9240d2929230b81b0d572094a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/228255d6b277884a447fc4e32072b073/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2c55be61dac1ada0576085b9b73e427b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:customtabs:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/customtabs-28.0.0.aar/50f293dc367537079a7b73dc69fab597/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ccef4d10f8a4e4e5b5922233c29130c6/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/010409904d071372565368dafa263acb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/677b106c4013862d76517bb05a9bad72/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b6dcb4c1cc3a4ed9519ff779585bf890/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2fd096f556a5720ee1d4d60c3b7227df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f3359f5ba6b06b82cef6f8c30db4fa15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4f614baae7cd83dfbd01ec449c333501/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7fa9ec3b9e6fcc0cb7d7d9086a9224c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/98faabcdb1993f0fe96b90f892eaa8ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/4e66d0d1aa29ef4f037e099bcdc2f888/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/186d4dd70876f4825b47eb7e495df102/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5b344a0434a4d1307100f80911fb4220/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/be8df020ed3bba6c7c397e9467b89f1e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9a75d26feefa0fbb7ec45ba0d830a511/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ec3d7287ecdaab8317392e24d0d46742/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/b6c2cbd9b350790c33890be5745d89f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/439eb1a718eb3f23c543ae86507ac237/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/796ac52bf6a7cebec1555ff9a7898b5b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/462e8bdd5921f407611c0dfa08f7f8b9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5a38585dd9dcb4e2d8cc12a2c1da8c0f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e871362066f6a5a4a54c7c930d731e82/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/6a2442f56cdff862e6693b913169f889/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f950d208b00af5e5bc21c121521b2246/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c6333ef565b0589ddde7b58659ebd17e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9ca29bdaaff0306214083bcdc7bfb395/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/572d21db0bfcb0767835340789bb1ed0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f6b5766fbcae7dd9bfc30685e0434ba0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/78c435bd6baa3cb71b21821e2dc38deb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a457387c4a331ba9b48564383fd2ab89/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6aa3aa7b586222c0caaaae8d247306d2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31ab9d7401a0aff100fd8bc77066e7bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/e276cdfa045b3ffe03b328fd7bd4bfa8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/fd7aad242ae5195a4bed015ebbe45477/AndroidManifest.xml:2:1-11:12
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:3:5-38
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:1-36:12
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:5:5-34:19
+MERGED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:15:5-91:19
+MERGED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:15:5-91:19
+MERGED from [com.android.support:design:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/211492767a2b637fd00dffc960b9fde7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/211492767a2b637fd00dffc960b9fde7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:13:5-19:19
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/153823ba4f334addc3eb85f57de41b80/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/153823ba4f334addc3eb85f57de41b80/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/248f7a6ed27731551a6813ed91c76072/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/248f7a6ed27731551a6813ed91c76072/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/b81b5f9a06d588242036483a4c596b1d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/b81b5f9a06d588242036483a4c596b1d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/17ff3ec192e7ed94fd9c3c9b5f3ad213/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/17ff3ec192e7ed94fd9c3c9b5f3ad213/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7f1eb2d3d57699b4262e19dc606d2f7c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7f1eb2d3d57699b4262e19dc606d2f7c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d3732724947d2fd2d6c44cd0dbed920d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d3732724947d2fd2d6c44cd0dbed920d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/eb52dfa1c9cd14caa15bceda942bf3d9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/eb52dfa1c9cd14caa15bceda942bf3d9/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/88ebe383b8c6dd8f36ed69fa63fb195d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/88ebe383b8c6dd8f36ed69fa63fb195d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/89e6cd9240d2929230b81b0d572094a1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/89e6cd9240d2929230b81b0d572094a1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2c55be61dac1ada0576085b9b73e427b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2c55be61dac1ada0576085b9b73e427b/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ccef4d10f8a4e4e5b5922233c29130c6/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ccef4d10f8a4e4e5b5922233c29130c6/AndroidManifest.xml:11:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/796ac52bf6a7cebec1555ff9a7898b5b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/796ac52bf6a7cebec1555ff9a7898b5b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/462e8bdd5921f407611c0dfa08f7f8b9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/462e8bdd5921f407611c0dfa08f7f8b9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/6a2442f56cdff862e6693b913169f889/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/6a2442f56cdff862e6693b913169f889/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/796ac52bf6a7cebec1555ff9a7898b5b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.mint.mcdone.SplashActivity
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:13:9-22:20
+	android:theme
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:14:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.mint.mcdone.MainActivity
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:24:9-30:20
+	android:label
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:26:13-45
+	android:theme
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:25:13-41
+activity#com.example.mint.mcdone.SignInActivity
+ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:31:9-33:62
+	android:label
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:33:13-60
+	android:name
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml:32:13-43
+uses-sdk
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+MERGED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/211492767a2b637fd00dffc960b9fde7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/211492767a2b637fd00dffc960b9fde7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/58b7caa0628ee09808b57397eb08d8ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/58b7caa0628ee09808b57397eb08d8ec/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-storage:3.2.2] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-3.2.2.aar/8038da166cf3f9b9c1950ffc1da4a4f6/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-storage:3.2.2] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-storage-3.2.2.aar/8038da166cf3f9b9c1950ffc1da4a4f6/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/153823ba4f334addc3eb85f57de41b80/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/153823ba4f334addc3eb85f57de41b80/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/248f7a6ed27731551a6813ed91c76072/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/248f7a6ed27731551a6813ed91c76072/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/b81b5f9a06d588242036483a4c596b1d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.3.aar/b81b5f9a06d588242036483a4c596b1d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/17ff3ec192e7ed94fd9c3c9b5f3ad213/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.4.aar/17ff3ec192e7ed94fd9c3c9b5f3ad213/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7f1eb2d3d57699b4262e19dc606d2f7c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7f1eb2d3d57699b4262e19dc606d2f7c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d3732724947d2fd2d6c44cd0dbed920d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/d3732724947d2fd2d6c44cd0dbed920d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/519692d8daebed90d0d46c7192541c95/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/519692d8daebed90d0d46c7192541c95/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/19d870b248d86db693b4cda540de52a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.0.0.aar/19d870b248d86db693b4cda540de52a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/eb52dfa1c9cd14caa15bceda942bf3d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/eb52dfa1c9cd14caa15bceda942bf3d9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/88ebe383b8c6dd8f36ed69fa63fb195d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/88ebe383b8c6dd8f36ed69fa63fb195d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/02b0c87959434b8d0d2d3087be4d8dd4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/02b0c87959434b8d0d2d3087be4d8dd4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/89e6cd9240d2929230b81b0d572094a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/89e6cd9240d2929230b81b0d572094a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/228255d6b277884a447fc4e32072b073/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/228255d6b277884a447fc4e32072b073/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2c55be61dac1ada0576085b9b73e427b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2c55be61dac1ada0576085b9b73e427b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:customtabs:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/customtabs-28.0.0.aar/50f293dc367537079a7b73dc69fab597/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/customtabs-28.0.0.aar/50f293dc367537079a7b73dc69fab597/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ccef4d10f8a4e4e5b5922233c29130c6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/glide-4.6.1.aar/ccef4d10f8a4e4e5b5922233c29130c6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/010409904d071372565368dafa263acb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/010409904d071372565368dafa263acb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/677b106c4013862d76517bb05a9bad72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/677b106c4013862d76517bb05a9bad72/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b6dcb4c1cc3a4ed9519ff779585bf890/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/b6dcb4c1cc3a4ed9519ff779585bf890/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2fd096f556a5720ee1d4d60c3b7227df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2fd096f556a5720ee1d4d60c3b7227df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f3359f5ba6b06b82cef6f8c30db4fa15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f3359f5ba6b06b82cef6f8c30db4fa15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4f614baae7cd83dfbd01ec449c333501/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/4f614baae7cd83dfbd01ec449c333501/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7fa9ec3b9e6fcc0cb7d7d9086a9224c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/7fa9ec3b9e6fcc0cb7d7d9086a9224c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/98faabcdb1993f0fe96b90f892eaa8ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/98faabcdb1993f0fe96b90f892eaa8ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/4e66d0d1aa29ef4f037e099bcdc2f888/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/4e66d0d1aa29ef4f037e099bcdc2f888/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/186d4dd70876f4825b47eb7e495df102/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/186d4dd70876f4825b47eb7e495df102/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5b344a0434a4d1307100f80911fb4220/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/5b344a0434a4d1307100f80911fb4220/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/be8df020ed3bba6c7c397e9467b89f1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/be8df020ed3bba6c7c397e9467b89f1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9a75d26feefa0fbb7ec45ba0d830a511/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/9a75d26feefa0fbb7ec45ba0d830a511/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ec3d7287ecdaab8317392e24d0d46742/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ec3d7287ecdaab8317392e24d0d46742/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/b6c2cbd9b350790c33890be5745d89f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/b6c2cbd9b350790c33890be5745d89f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/439eb1a718eb3f23c543ae86507ac237/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/439eb1a718eb3f23c543ae86507ac237/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/796ac52bf6a7cebec1555ff9a7898b5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/796ac52bf6a7cebec1555ff9a7898b5b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/462e8bdd5921f407611c0dfa08f7f8b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/462e8bdd5921f407611c0dfa08f7f8b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5a38585dd9dcb4e2d8cc12a2c1da8c0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5a38585dd9dcb4e2d8cc12a2c1da8c0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e871362066f6a5a4a54c7c930d731e82/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e871362066f6a5a4a54c7c930d731e82/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/6a2442f56cdff862e6693b913169f889/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.6.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.6.1.aar/6a2442f56cdff862e6693b913169f889/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:documentfile:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f950d208b00af5e5bc21c121521b2246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f950d208b00af5e5bc21c121521b2246/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c6333ef565b0589ddde7b58659ebd17e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c6333ef565b0589ddde7b58659ebd17e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9ca29bdaaff0306214083bcdc7bfb395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9ca29bdaaff0306214083bcdc7bfb395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/572d21db0bfcb0767835340789bb1ed0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/572d21db0bfcb0767835340789bb1ed0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f6b5766fbcae7dd9bfc30685e0434ba0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f6b5766fbcae7dd9bfc30685e0434ba0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/78c435bd6baa3cb71b21821e2dc38deb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/78c435bd6baa3cb71b21821e2dc38deb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a457387c4a331ba9b48564383fd2ab89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a457387c4a331ba9b48564383fd2ab89/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6aa3aa7b586222c0caaaae8d247306d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6aa3aa7b586222c0caaaae8d247306d2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31ab9d7401a0aff100fd8bc77066e7bc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/31ab9d7401a0aff100fd8bc77066e7bc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/e276cdfa045b3ffe03b328fd7bd4bfa8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/e276cdfa045b3ffe03b328fd7bd4bfa8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/fd7aad242ae5195a4bed015ebbe45477/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-16.0.1.aar/fd7aad242ae5195a4bed015ebbe45477/AndroidManifest.xml:7:5-9:41
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		ADDED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-storage-16.0.5.aar/e9b53fb2fb18def9efc65d3ccbb1b03d/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:13:22-64
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/29a436b07b2c8b122c2d90992108f602/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:28:9-32:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:31:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:29:13-76
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:33:9-37:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:36:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:37:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:34:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:38:9-42:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:41:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:39:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:43:9-47:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:46:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:47:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:44:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:48:9-52:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:51:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:52:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:49:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:53:9-57:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:56:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:57:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:54:13-83
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:58:9-61:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:61:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:59:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:62:9-66:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:65:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:66:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:64:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:63:13-57
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:67:9-71:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:70:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:69:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:71:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:68:13-86
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:72:9-84:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:74:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:75:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:73:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:76:13-83:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:77:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:79:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:80:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:82:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:82:23-78
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:86:9-90:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:88:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:89:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:90:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/AndroidManifest.xml:87:13-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:14:9-18:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:14:18-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:17.1.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.1.3.aar/99c0b4264a3ea0a495dcadd97a28be63/AndroidManifest.xml:16:17-111
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.3.aar/07e214db8c76556cc7349d4372d523bd/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.3.aar/8e6ce9cf71cf67b43321c8a448141b30/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.5.aar/4689dc7b359d663d442b940e5f1178e2/AndroidManifest.xml:49:13-87
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.5.aar/254b04f8f15a0fa33fc3f4685add519c/AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-auth-15.0.0.aar/55246b01254d44823281a28c2cbc133d/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.3.aar/a24c2a3b291f91fab34cdf56bfa34610/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.4.aar/ca37e66280bbe870f81bc7fd4c1df509/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4049eaee053be9cc898ac2b3747edc52/AndroidManifest.xml:24:13-79
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /home/mahi/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/be96cde062675b834c029a2bbb1c3c37/AndroidManifest.xml:24:13-83
