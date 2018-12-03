@@ -1104,6 +1104,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_remove_circle_black_24dp
 drawable ic_report_black_24dp
+drawable ic_stock_vector_pill_or_medicine_cartoon_character_678718978
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
@@ -1170,9 +1171,12 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_holder
 id buttonPanel
+id button_add_medicine_image
+id button_add_medicine_text
 id button_create
 id button_done
 id button_next
+id button_save_edit_profile
 id cancel_action
 id center
 id center_horizontal
@@ -1207,6 +1211,7 @@ id dimensions
 id direct
 id disableHome
 id drawer_layout
+id editText_name
 id edit_phone_number
 id edit_query
 id email
@@ -1219,7 +1224,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id facebook_button
 id fill
 id fill_horizontal
@@ -1227,7 +1231,6 @@ id fill_vertical
 id filled
 id fixed
 id forever
-id fragment_layout
 id fragment_register_email
 id fragment_verify_phone
 id ghost_view
@@ -1258,6 +1261,7 @@ id line3
 id listMode
 id list_item
 id logo
+id mainContent
 id masked
 id media_actions
 id message
@@ -1297,6 +1301,7 @@ id phone_layout
 id phone_number
 id pin
 id profile_picture
+id profile_picture_edit
 id progress_bar
 id progress_circular
 id progress_horizontal
@@ -1354,6 +1359,7 @@ id stretch
 id submenuarrow
 id submit_area
 id submit_confirmation_code
+id sv_scanner
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
@@ -1363,7 +1369,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1384,6 +1389,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id trouble_signing_in
+id tv_text
 id twitter_button
 id uniform
 id unlabeled
@@ -1449,11 +1455,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_image_scanner
 layout activity_main
 layout activity_sign_in
 layout app_bar_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout content_image_scanner
 layout content_main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1469,6 +1477,8 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_add_medicine
+layout fragment_edit_profile
 layout fragment_user_home
 layout fui_activity_register_email
 layout fui_activity_register_phone
@@ -1681,6 +1691,7 @@ string path_password_strike_through
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_image_scanner
 string twitter_consumer_key
 string twitter_consumer_secret
 style AlertDialog_AppCompat

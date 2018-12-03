@@ -1,7 +1,7 @@
-#Wed Nov 21 23:59:26 BDT 2018
-base.0=/mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/transforms/dexMerger/debug/10
+#Mon Dec 03 14:51:58 BDT 2018
+base.0=/home/mint/AndroidStudioProjects/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/transforms/dexMerger/debug/10
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/transforms/dexMerger/debug/10
+base.1=/home/mint/AndroidStudioProjects/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/transforms/dexMerger/debug/10

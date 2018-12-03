@@ -60,6 +60,7 @@ public final class User {
         return null;
     }
     
+    @org.jetbrains.annotations.NotNull()
     @java.lang.Override()
     public java.lang.String toString() {
         return null;
@@ -71,7 +72,8 @@ public final class User {
     }
     
     @java.lang.Override()
-    public boolean equals(java.lang.Object p0) {
+    public boolean equals(@org.jetbrains.annotations.Nullable()
+    java.lang.Object p0) {
         return false;
     }
 }

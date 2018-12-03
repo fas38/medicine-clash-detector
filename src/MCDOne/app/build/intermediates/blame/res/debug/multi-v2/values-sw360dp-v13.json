@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "/home/mint/AndroidStudioProjects/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/cfb0bd94600df68e12d5f4117a23fa9b/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/home/mint/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/131d283123d5f7334efa495132f2bbb8/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

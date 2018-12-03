@@ -23,7 +23,9 @@ class SignInActivity : AppCompatActivity() {
             listOf(AuthUI.IdpConfig.EmailBuilder()
                     .setAllowNewAccounts(true)
                     .setRequireName(true)
-                    .build())
+                    .build(),
+                    AuthUI.IdpConfig.GoogleBuilder()
+                        .build())
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

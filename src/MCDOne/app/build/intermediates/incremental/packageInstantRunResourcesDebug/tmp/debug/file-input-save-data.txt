@@ -1,7 +1,7 @@
 #Internal package file, do not edit.
-#Wed Nov 21 23:57:53 BDT 2018
+#Mon Dec 03 14:51:51 BDT 2018
 0.baseType=DIRECTORY
-0.base=/mnt/28D42DB4D42D8562/Documents/Study/Fall2018/CSE327/Project/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.base=/home/mint/AndroidStudioProjects/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
 0.path=crashlytics-build.properties
 0.set=ASSET
 count=1
