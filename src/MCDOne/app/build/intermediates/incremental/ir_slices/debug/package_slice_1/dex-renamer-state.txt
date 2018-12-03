@@ -1,4 +1,4 @@
-#Mon Dec 03 14:51:59 BDT 2018
+#Mon Dec 03 16:24:11 BDT 2018
 base.0=/home/mint/AndroidStudioProjects/nsu.fall.2018.cse327.2.t2/src/MCDOne/app/build/intermediates/transforms/dexMerger/debug/1
 path.0=classes.dex
 renamed.0=classes.dex

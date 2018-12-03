@@ -1,6 +1,9 @@
 package com.example.mint.mcdone.util
 
+import android.util.Log
+import android.widget.Toast
 import com.example.mint.mcdone.model.User
+import com.firebase.ui.auth.ui.email.CheckEmailFragment.TAG
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
@@ -18,9 +21,34 @@ object FirestoreUtil {
                 val newUser = User(FirebaseAuth.getInstance().currentUser?.displayName?:"",
                         "",
                         null)
-                currentUserDocRef.set(newUser).addOnSuccessListener{
-                    onComplete()
-                }
+
+
+                FirebaseAuth.getInstance().currentUser?.sendEmailVerification()
+                        ?.addOnCompleteListener{
+                            if(it.isSuccessful){
+                                Log.d(TAG, "Email sent.")
+                                val emailVerified = FirebaseAuth.getInstance()?.currentUser?.isEmailVerified
+                                if(emailVerified == true){
+                                    currentUserDocRef.set(newUser).addOnSuccessListener{
+                                        onComplete()
+                                    }
+                                }
+
+                                onComplete()
+                            }
+                        }
+
+
+
+//                if(emailVerified == true){
+//                    currentUserDocRef.set(newUser).addOnSuccessListener{
+//                        onComplete()
+//                    }
+//                }
+
+//                currentUserDocRef.set(newUser).addOnSuccessListener{
+//                    onComplete()
+//                }
             }
             else
                 onComplete()
