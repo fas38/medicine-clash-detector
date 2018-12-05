@@ -29,18 +29,24 @@ class ShowClashReportActivity : AppCompatActivity() {
         textView_show_clash_report.movementMethod = ScrollingMovementMethod()
 
         button_clash_report_show.setOnClickListener{
+
             doAsync {
-                // Get the student list from database
+                // Get the list from database
                 val userList = userMedDB.addMedicineDao().allAddMedicine()
                 val prePopulatedList = prePopulatedDB.medicineDao().getMedicines()
 
                 uiThread {
-                    // Display the students in text view
+                    // Display in text view
                     textView_show_clash_report.text = ""
                     for (prePopMed in prePopulatedList){
                         for (userMed in userList){
-                            if(userMed.bName in prePopMed.clashMed){
-                                textView_show_clash_report.append("${userMed.bName} will clash with ${prePopMed.brandName}\n")
+                            if(userMed.bName in prePopMed.brandName){
+                                for(userMed2 in userList){
+                                    if(prePopMed.clashMed in userMed2.bName)
+                                    textView_show_clash_report.append(
+                                            "${prePopMed.clashMed} will clash with ${userMed.bName}\n"
+                                              )
+                                }
                             }
                             else {
                                 continue
