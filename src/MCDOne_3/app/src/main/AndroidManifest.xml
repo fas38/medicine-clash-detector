@@ -68,6 +68,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.mint.mcdone.MainActivity" />
         </activity>
+        <activity android:name=".ScannedTextActivity"></activity>
     </application>
 
 </manifest>

@@ -2,8 +2,10 @@ package com.example.mint.mcdone
 
 import android.Manifest
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.os.Handler
 import android.support.design.widget.Snackbar
 import android.support.v4.app.ActivityCompat
 import android.support.v7.app.AppCompatActivity;
@@ -27,6 +29,20 @@ class ImageScannerActivity : AppCompatActivity() {
     private lateinit var cameraSource: CameraSource
     private lateinit var textRecognizer: TextRecognizer
 
+    private var mDelayHandler: Handler? = null
+    private val delay: Long = 20000 //3 seconds
+    var scannedText: String? = null
+
+    internal val mRunnable: Runnable = Runnable {
+        if (!isFinishing) {
+
+            val intent = Intent(applicationContext, ScannedTextActivity::class.java)
+            intent.putExtra("scannedText", scannedText)
+            startActivity(intent)
+            finish()
+        }
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,6 +62,12 @@ class ImageScannerActivity : AppCompatActivity() {
         }else{
             Log.w("Error","Text Recognizer is not working")
         }
+
+        //Initialize the Handler
+        mDelayHandler = Handler()
+
+        //Navigate with delay
+        mDelayHandler!!.postDelayed(mRunnable, delay)
     }
 
     private fun startScanner(){
@@ -87,6 +109,9 @@ class ImageScannerActivity : AppCompatActivity() {
                     builder.append("\n")
                 }
 
+                scannedText = builder.toString()
+
+
                 tvText.post{
                     tvText.text = builder.toString()
                 }
@@ -113,6 +138,10 @@ class ImageScannerActivity : AppCompatActivity() {
         textRecognizer.release()
         cameraSource.stop()
         cameraSource.release()
+
+        if (mDelayHandler != null) {
+            mDelayHandler!!.removeCallbacks(mRunnable)
+        }
     }
 
 }
