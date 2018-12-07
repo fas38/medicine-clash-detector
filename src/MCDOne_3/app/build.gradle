@@ -51,7 +51,6 @@ dependencies {
     //Facebook
     implementation 'com.facebook.android:facebook-android-sdk:4.39.0'
 
-
     //Room
     implementation "android.arch.persistence.room:runtime:1.1.1"
     kapt "android.arch.persistence.room:compiler:1.1.1"

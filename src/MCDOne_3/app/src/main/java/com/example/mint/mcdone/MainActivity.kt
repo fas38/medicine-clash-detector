@@ -134,7 +134,21 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(intent)
             }
             R.id.nav_delete_account -> {
-                // Handle the item
+
+                doAsync {
+
+                    mDb.addMedicineDao().nukeTable()
+
+                    uiThread{
+
+                    }
+                }
+
+                AuthUI.getInstance()
+                        .delete(this@MainActivity)
+                        .addOnCompleteListener {
+                            startActivity(intentFor<SignInActivity>().newTask().clearTask())
+                        }
             }
             R.id.nav_logout -> {
 
