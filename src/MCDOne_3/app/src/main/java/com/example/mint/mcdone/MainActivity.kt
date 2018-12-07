@@ -14,6 +14,7 @@ import com.example.mint.mcdone.fragment.AddMedicineFragment
 import com.example.mint.mcdone.fragment.EditProfileFragment
 import com.example.mint.mcdone.fragment.RemoveMedicineFragment
 import com.example.mint.mcdone.fragment.UserHomeFragment
+import com.example.mint.mcdone.model.AddMedicineSingleton
 import com.example.mint.mcdone.util.FirestoreUtil
 import com.example.mint.mcdone.util.replaceFragmenty
 import com.firebase.ui.auth.AuthUI
@@ -21,17 +22,15 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.android.synthetic.main.nav_header_main.*
-import org.jetbrains.anko.clearTask
+import org.jetbrains.anko.*
 import org.jetbrains.anko.design.navigationView
-import org.jetbrains.anko.intentFor
-import org.jetbrains.anko.newTask
 
 //import com.google.firebase.auth.FirebaseAuth
 //import android.widget.Toast
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
 
-
+    private lateinit var mDb: AddMedicineSingleton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -54,6 +53,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 allowStateLoss = true,
                 containerViewId = R.id.mainContent
         )
+
+        // Initialize the room database
+        mDb = AddMedicineSingleton.getInstance(applicationContext)
     }
 
     override fun onBackPressed() {
@@ -135,6 +137,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 // Handle the item
             }
             R.id.nav_logout -> {
+
+                doAsync {
+
+                    mDb.addMedicineDao().nukeTable()
+
+                    uiThread{
+
+                    }
+                }
+
                 AuthUI.getInstance()
                         .signOut(this@MainActivity)
                         .addOnCompleteListener{

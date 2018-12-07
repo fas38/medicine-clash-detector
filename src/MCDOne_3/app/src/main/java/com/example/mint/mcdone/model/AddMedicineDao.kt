@@ -12,4 +12,7 @@ interface addMedicineDao{
 
     @Delete
     fun delete(addMedicine: AddMedicine)
+
+    @Query("DELETE FROM addmedicinetbl")
+    fun nukeTable()
 }
