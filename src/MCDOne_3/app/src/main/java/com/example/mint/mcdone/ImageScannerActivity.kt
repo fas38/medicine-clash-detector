@@ -30,7 +30,7 @@ class ImageScannerActivity : AppCompatActivity() {
     private lateinit var textRecognizer: TextRecognizer
 
     private var mDelayHandler: Handler? = null
-    private val delay: Long = 20000 //3 seconds
+    private val delay: Long = 10000 //3 seconds
     var scannedText: String? = null
 
     internal val mRunnable: Runnable = Runnable {
