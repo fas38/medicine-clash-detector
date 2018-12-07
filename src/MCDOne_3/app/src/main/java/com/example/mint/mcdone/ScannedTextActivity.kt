@@ -59,7 +59,9 @@ class ScannedTextActivity : AppCompatActivity() {
                             flag =true
 
                         }
-                        break
+                        if (flag){
+                            break
+                        }
                     }
 
                     if (flag){

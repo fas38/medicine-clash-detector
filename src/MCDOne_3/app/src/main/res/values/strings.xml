@@ -20,4 +20,5 @@
     <string name="title_activity_add_medicine_text">AddMedicineTextActivity</string>
     <string name="title_activity_show_medicine_list">ShowMedicineListActivity</string>
     <string name="title_activity_show_clash_report">ShowClashReportActivity</string>
+    <string name="title_activity_remove_medicine">RemoveMedicineActivity</string>
 </resources>

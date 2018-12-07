@@ -12,6 +12,7 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.mint.mcdone.fragment.AddMedicineFragment
 import com.example.mint.mcdone.fragment.EditProfileFragment
+import com.example.mint.mcdone.fragment.RemoveMedicineFragment
 import com.example.mint.mcdone.fragment.UserHomeFragment
 import com.example.mint.mcdone.util.FirestoreUtil
 import com.example.mint.mcdone.util.replaceFragmenty
@@ -116,7 +117,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 )
             }
             R.id.nav_remove_medicine -> {
-                // Handle the item
+                replaceFragmenty(
+                        fragment = RemoveMedicineFragment(),
+                        allowStateLoss = true,
+                        containerViewId = R.id.mainContent
+                )
             }
             R.id.nav_show_medicine -> {
                 val intent = Intent(this@MainActivity, ShowMedicineListActivity::class.java)
