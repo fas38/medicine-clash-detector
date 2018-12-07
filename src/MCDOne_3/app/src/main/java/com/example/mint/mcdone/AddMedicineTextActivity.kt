@@ -5,6 +5,7 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
 import com.example.mint.mcdone.model.AddMedicine
 import com.example.mint.mcdone.model.AddMedicineSingleton
+import com.example.mint.mcdone.model.MedicineDatabase
 
 import kotlinx.android.synthetic.main.activity_add_medicine_text.*
 import kotlinx.android.synthetic.main.content_add_medicine_text.*
@@ -14,7 +15,10 @@ import org.jetbrains.anko.uiThread
 
 class AddMedicineTextActivity : AppCompatActivity() {
 
+    private lateinit var prePopulatedDB: MedicineDatabase
     private lateinit var mDb: AddMedicineSingleton
+
+    var flag = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +26,7 @@ class AddMedicineTextActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         // Initialize the room database
+        prePopulatedDB = MedicineDatabase.getInstance(applicationContext)
         mDb = AddMedicineSingleton.getInstance(applicationContext)
 
         button_add_medicine.setOnClickListener {
@@ -31,11 +36,33 @@ class AddMedicineTextActivity : AppCompatActivity() {
             )
 
             doAsync {
-                // Put the addMedicine in database
-                mDb.addMedicineDao().insert(addMedicine)
+
+                // Get the list from database
+                val prePopulatedList = prePopulatedDB.medicineDao().getMedicines()
+
+                for (medicine in prePopulatedList){
+                    if(addMedicine.bName in medicine.brandName){
+
+                        // Put the addMedicine in database
+                        mDb.addMedicineDao().insert(addMedicine)
+                        flag =true
+
+                    }
+                    if (flag){
+                        break
+                    }
+                }
+
+
 
                 uiThread {
-                    toast("One record inserted.")
+                    if (flag){
+                        flag = false
+                        toast("Medicine Inserted in the List")
+                    }
+                    else{
+                        toast("Invalid Input")
+                    }
                 }
             }
 
