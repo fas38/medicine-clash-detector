@@ -15,6 +15,8 @@ import org.jetbrains.anko.indeterminateProgressDialog
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.newTask
 
+
+
 class SignInActivity : AppCompatActivity() {
 
     private val RC_SIGN_IN = 1
@@ -25,7 +27,9 @@ class SignInActivity : AppCompatActivity() {
                     .setRequireName(true)
                     .build(),
                     AuthUI.IdpConfig.GoogleBuilder()
-                        .build())
+                        .build(),
+                    AuthUI.IdpConfig.FacebookBuilder()
+                            .build())
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

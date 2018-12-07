@@ -48,6 +48,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:16.0.5'
     implementation 'com.firebaseui:firebase-ui-storage:3.2.2'
 
+    //Facebook
+    implementation 'com.facebook.android:facebook-android-sdk:4.39.0'
+
+
     //Room
     implementation "android.arch.persistence.room:runtime:1.1.1"
     kapt "android.arch.persistence.room:compiler:1.1.1"

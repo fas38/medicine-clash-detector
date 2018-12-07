@@ -14,11 +14,16 @@
     <string name="nav_delete_account">Delete Account</string>
     <string name="nav_logout">Log Out</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_image_scanner">ImageScannerActivity</string>
     <string name="title_activity_add_medicine_text">AddMedicineTextActivity</string>
     <string name="title_activity_show_medicine_list">ShowMedicineListActivity</string>
     <string name="title_activity_show_clash_report">ShowClashReportActivity</string>
     <string name="title_activity_remove_medicine">RemoveMedicineActivity</string>
+
+
+    <string name="facebook_application_id" translatable="false">507634609721748</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb507634609721748</string>
+
 </resources>
