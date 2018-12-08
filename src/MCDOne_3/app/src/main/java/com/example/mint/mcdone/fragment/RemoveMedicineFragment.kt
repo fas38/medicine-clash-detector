@@ -12,6 +12,7 @@ import com.example.mint.mcdone.R
 import com.example.mint.mcdone.RemoveMedicineActivity
 import kotlinx.android.synthetic.main.fragment_remove_medicine.view.*
 
+//Fragment for removing medicine
 
 class RemoveMedicineFragment : Fragment() {
 

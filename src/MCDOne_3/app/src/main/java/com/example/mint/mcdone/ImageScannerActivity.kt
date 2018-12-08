@@ -21,6 +21,10 @@ import com.google.android.gms.vision.text.TextRecognizer
 
 import kotlinx.android.synthetic.main.activity_image_scanner.*
 
+
+//This activity deals with adding medicine by image scanning
+
+
 class ImageScannerActivity : AppCompatActivity() {
 
     private lateinit var svScanner: SurfaceView

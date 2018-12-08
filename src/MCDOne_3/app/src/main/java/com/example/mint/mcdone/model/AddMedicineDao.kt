@@ -2,6 +2,8 @@ package com.example.mint.mcdone.model
 
 import android.arch.persistence.room.*
 
+// Data Access Object class for adding medicine activity
+
 @Dao
 interface addMedicineDao{
     @Query("SELECT * FROM addmedicinetbl")

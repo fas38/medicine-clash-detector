@@ -15,7 +15,10 @@ import org.jetbrains.anko.indeterminateProgressDialog
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.newTask
 
-
+/**
+This class deals with all the works related with signin
+with the help of firebase api
+*/
 
 class SignInActivity : AppCompatActivity() {
 

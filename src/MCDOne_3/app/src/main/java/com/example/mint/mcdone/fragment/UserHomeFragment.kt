@@ -16,6 +16,7 @@ import com.example.mint.mcdone.util.StorageUtil
 import kotlinx.android.synthetic.main.fragment_user_home.*
 import kotlinx.android.synthetic.main.nav_header_main.*
 
+//Fragment for showing home menu
 
 class UserHomeFragment : Fragment() {
 

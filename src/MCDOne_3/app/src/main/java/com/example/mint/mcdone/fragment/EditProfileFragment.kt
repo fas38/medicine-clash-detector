@@ -22,6 +22,7 @@ import kotlinx.android.synthetic.main.nav_header_main.*
 import org.jetbrains.anko.support.v4.toast
 import java.io.ByteArrayOutputStream
 
+//Fragment for editing profile
 
 class EditProfileFragment : Fragment() {
 

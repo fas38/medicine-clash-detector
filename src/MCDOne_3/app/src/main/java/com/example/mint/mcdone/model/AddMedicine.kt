@@ -4,6 +4,11 @@ import android.arch.persistence.room.ColumnInfo
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 
+/**
+ This is the medicine entity class for adding
+ medicine.
+ */
+
 @Entity(tableName = "addMedicineTbl")
 data class AddMedicine(
         @PrimaryKey(autoGenerate = true)

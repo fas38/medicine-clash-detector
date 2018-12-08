@@ -5,6 +5,8 @@ import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
 import android.content.Context
 
+//Database class for adding medicine activity
+
 @Database(entities = arrayOf(AddMedicine::class), version = 1)
 abstract class AddMedicineSingleton : RoomDatabase() {
     abstract fun addMedicineDao(): addMedicineDao

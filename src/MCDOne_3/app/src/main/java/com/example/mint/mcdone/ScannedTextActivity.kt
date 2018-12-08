@@ -11,6 +11,11 @@ import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.toast
 import org.jetbrains.anko.uiThread
 
+/**
+This activity process the scanned image to the text for saving
+it in the database. This class is responsible for converting image
+to text.
+*/
 
 class ScannedTextActivity : AppCompatActivity() {
 

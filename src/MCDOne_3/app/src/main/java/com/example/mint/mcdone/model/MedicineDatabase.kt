@@ -6,6 +6,8 @@ import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
 import android.content.Context
 
+//Pre-populated medicine database
+
 @Database(entities = arrayOf(Medicine::class), version = 1)
 
 abstract class MedicineDatabase : RoomDatabase(){

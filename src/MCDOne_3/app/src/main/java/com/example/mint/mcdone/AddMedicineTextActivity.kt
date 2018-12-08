@@ -13,6 +13,12 @@ import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.toast
 import org.jetbrains.anko.uiThread
 
+/*
+This Activity is responsible for adding medicine
+to the local sqlite database. This activity deals
+with adding medicine by typing or text.
+*/
+
 class AddMedicineTextActivity : AppCompatActivity() {
 
     private lateinit var prePopulatedDB: MedicineDatabase
@@ -29,6 +35,7 @@ class AddMedicineTextActivity : AppCompatActivity() {
         prePopulatedDB = MedicineDatabase.getInstance(applicationContext)
         mDb = AddMedicineSingleton.getInstance(applicationContext)
 
+        //Code for Add medicine button saving data
         button_add_medicine.setOnClickListener {
             // Initialize a new addMedicine
             val addMedicine = AddMedicine(id = null,

@@ -13,6 +13,7 @@ import com.example.mint.mcdone.ImageScannerActivity
 import com.example.mint.mcdone.R
 import kotlinx.android.synthetic.main.fragment_add_medicine.view.*
 
+//Fragment for adding medicine
 
 class AddMedicineFragment : Fragment() {
 

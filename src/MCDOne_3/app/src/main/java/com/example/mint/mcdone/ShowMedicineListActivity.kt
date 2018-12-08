@@ -11,6 +11,11 @@ import kotlinx.android.synthetic.main.content_show_medicine_list.*
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
+/**
+ This class is responsible for showing the list
+ of medicines added by the user in a separate view.
+ */
+
 class ShowMedicineListActivity : AppCompatActivity() {
 
     private lateinit var mDb: AddMedicineSingleton

@@ -5,6 +5,8 @@ import android.arch.persistence.room.Insert
 import android.arch.persistence.room.OnConflictStrategy
 import android.arch.persistence.room.Query
 
+//Data Access Object class for pre-populated medicine database
+
 @Dao
 interface MedicineDao{
     @Insert

@@ -25,8 +25,12 @@ import kotlinx.android.synthetic.main.nav_header_main.*
 import org.jetbrains.anko.*
 import org.jetbrains.anko.design.navigationView
 
-//import com.google.firebase.auth.FirebaseAuth
-//import android.widget.Toast
+/**
+This is the home activity. This activity is responsible
+for showing the user their home screen with their profile
+picture and also connecting with the menu button for
+further navigation.
+*/
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
 

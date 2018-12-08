@@ -12,6 +12,8 @@ import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.toast
 import org.jetbrains.anko.uiThread
 
+//This is the activity responsible for removing a medicine from the database
+
 class RemoveMedicineActivity : AppCompatActivity() {
 
     private lateinit var mDb: AddMedicineSingleton

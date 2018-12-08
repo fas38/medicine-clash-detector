@@ -12,6 +12,11 @@ import kotlinx.android.synthetic.main.content_show_clash_report.*
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
+/**
+This class is responsible for generating clash report
+in a separate menu.
+*/
+
 class ShowClashReportActivity : AppCompatActivity() {
 
     private lateinit var userMedDB: AddMedicineSingleton
