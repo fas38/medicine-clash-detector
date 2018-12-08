@@ -48,7 +48,7 @@ class AddMedicineTextActivity : AppCompatActivity() {
                 val prePopulatedList = prePopulatedDB.medicineDao().getMedicines()
 
                 for (medicine in prePopulatedList){
-                    if(addMedicine.bName in medicine.brandName){
+                    if(addMedicine.bName in medicine.brandName || addMedicine.bName in medicine.clashMed){
 
                         // Put the addMedicine in database
                         mDb.addMedicineDao().insert(addMedicine)
