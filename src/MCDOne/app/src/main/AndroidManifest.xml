@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mint.mcdone">
 
+<<<<<<< HEAD
+=======
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+>>>>>>> remotes/origin/scratch
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,17 +14,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
 
+=======
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+>>>>>>> remotes/origin/scratch
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 
         <activity
             android:name=".MainActivity"
@@ -31,6 +43,30 @@
         <activity
             android:name=".SignInActivity"
             android:label="Start checking medicine clashes"/>
+=======
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="Start checking medicine clashes" />
+
+        <activity
+            android:name=".ImageScannerActivity"
+            android:label="@string/title_activity_image_scanner"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+        
+>>>>>>> remotes/origin/scratch
     </application>
 
 </manifest>

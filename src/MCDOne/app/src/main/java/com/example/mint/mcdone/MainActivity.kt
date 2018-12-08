@@ -9,8 +9,16 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+<<<<<<< HEAD
 import com.example.mint.mcdone.fragment.UserHomeFragment
 import com.example.mint.mcdone.util.FirestoreUtil
+=======
+import com.example.mint.mcdone.fragment.AddMedicineFragment
+import com.example.mint.mcdone.fragment.EditProfileFragment
+import com.example.mint.mcdone.fragment.UserHomeFragment
+import com.example.mint.mcdone.util.FirestoreUtil
+import com.example.mint.mcdone.util.replaceFragmenty
+>>>>>>> remotes/origin/scratch
 import com.firebase.ui.auth.AuthUI
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -33,10 +41,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
+<<<<<<< HEAD
         fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
+=======
+>>>>>>> remotes/origin/scratch
 
         val toggle = ActionBarDrawerToggle(
                 this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
@@ -44,6 +55,18 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         toggle.syncState()
 
         nav_view.setNavigationItemSelectedListener(this)
+<<<<<<< HEAD
+=======
+
+
+        setNavbarUsername()
+
+        replaceFragmenty(
+                fragment = UserHomeFragment(),
+                allowStateLoss = true,
+                containerViewId = R.id.mainContent
+        )
+>>>>>>> remotes/origin/scratch
     }
 
     override fun onBackPressed() {
@@ -75,19 +98,51 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         when (item.itemId) {
             R.id.nav_home -> {
 //                replaceFragment(UserHomeFragment())
+<<<<<<< HEAD
                 var name : String?
 
                 FirestoreUtil.getCurrentUser {
                     name = it?.name
                     user_name_navbar.setText(name)
                 }
+=======
+//                var name : String?
+//
+//                FirestoreUtil.getCurrentUser {
+//                    name = it?.name
+//                    user_name_navbar.setText(name)
+//                }
+
+                replaceFragmenty(
+                        fragment = UserHomeFragment(),
+                        allowStateLoss = true,
+                        containerViewId = R.id.mainContent
+                )
+//                setTitle("Import")
+>>>>>>> remotes/origin/scratch
             }
             R.id.nav_edit_profile -> {
                 // Handle the item
 //                sample_text.setText("Edit is pressed")
+<<<<<<< HEAD
             }
             R.id.nav_add_medicine-> {
                 // Handle the item
+=======
+                replaceFragmenty(
+                        fragment = EditProfileFragment(),
+                        allowStateLoss = true,
+                        containerViewId = R.id.mainContent
+                )
+
+            }
+            R.id.nav_add_medicine-> {
+                replaceFragmenty(
+                        fragment = AddMedicineFragment(),
+                        allowStateLoss = true,
+                        containerViewId = R.id.mainContent
+                )
+>>>>>>> remotes/origin/scratch
             }
             R.id.nav_remove_medicine -> {
                 // Handle the item
@@ -111,10 +166,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return true
     }
 
+<<<<<<< HEAD
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_layout, fragment)
                 .commit()
+=======
+    fun setNavbarUsername(){
+        var name : String?
+        FirestoreUtil.getCurrentUser {
+            name = it?.name
+            user_name_navbar.setText(name)
+        }
+>>>>>>> remotes/origin/scratch
     }
 
 }

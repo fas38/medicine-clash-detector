@@ -18,7 +18,11 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
+<<<<<<< HEAD
         app:srcCompat="@mipmap/ic_launcher_round" />
+=======
+        app:srcCompat="@drawable/ic_stock_vector_pill_or_medicine_cartoon_character_678718978" />
+>>>>>>> remotes/origin/scratch
 
     <TextView
         android:id="@+id/user_name_navbar"
@@ -28,10 +32,18 @@
         android:text="@string/nav_header_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nav_header_subtitle" />
+=======
+    <!--<TextView-->
+        <!--android:id="@+id/email_id_navbar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/nav_header_subtitle" />-->
+>>>>>>> remotes/origin/scratch
 
 </LinearLayout>

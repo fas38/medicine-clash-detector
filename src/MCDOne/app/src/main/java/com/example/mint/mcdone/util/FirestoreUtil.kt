@@ -1,6 +1,13 @@
 package com.example.mint.mcdone.util
 
+<<<<<<< HEAD
 import com.example.mint.mcdone.model.User
+=======
+import android.util.Log
+import android.widget.Toast
+import com.example.mint.mcdone.model.User
+import com.firebase.ui.auth.ui.email.CheckEmailFragment.TAG
+>>>>>>> remotes/origin/scratch
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
@@ -9,7 +16,11 @@ object FirestoreUtil {
     private val firestoreInstance: FirebaseFirestore by lazy {FirebaseFirestore.getInstance()}
 
     private val currentUserDocRef: DocumentReference
+<<<<<<< HEAD
         get() = firestoreInstance.document("user/${FirebaseAuth.getInstance().uid
+=======
+        get() = firestoreInstance.document("users/${FirebaseAuth.getInstance().currentUser?.uid
+>>>>>>> remotes/origin/scratch
                 ?: throw NullPointerException("UID is null.")}")
 
     fun initCurrentUserIfFirstTime(onComplete: ()-> Unit){
@@ -18,9 +29,40 @@ object FirestoreUtil {
                 val newUser = User(FirebaseAuth.getInstance().currentUser?.displayName?:"",
                         "",
                         null)
+<<<<<<< HEAD
                 currentUserDocRef.set(newUser).addOnSuccessListener{
                     onComplete()
                 }
+=======
+
+
+                FirebaseAuth.getInstance().currentUser?.sendEmailVerification()
+                        ?.addOnCompleteListener{
+                            if(it.isSuccessful){
+                                Log.d(TAG, "Email sent.")
+                                val emailVerified = FirebaseAuth.getInstance()?.currentUser?.isEmailVerified
+                                if(emailVerified == true){
+                                    currentUserDocRef.set(newUser).addOnSuccessListener{
+                                        onComplete()
+                                    }
+                                }
+
+                                onComplete()
+                            }
+                        }
+
+
+
+//                if(emailVerified == true){
+//                    currentUserDocRef.set(newUser).addOnSuccessListener{
+//                        onComplete()
+//                    }
+//                }
+
+//                currentUserDocRef.set(newUser).addOnSuccessListener{
+//                    onComplete()
+//                }
+>>>>>>> remotes/origin/scratch
             }
             else
                 onComplete()
