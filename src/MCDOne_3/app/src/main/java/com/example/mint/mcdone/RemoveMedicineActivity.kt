@@ -16,6 +16,7 @@ import org.jetbrains.anko.uiThread
 
 class RemoveMedicineActivity : AppCompatActivity() {
 
+    //Initialize Variabbles
     private lateinit var mDb: AddMedicineSingleton
 
     var flag = false
@@ -39,7 +40,7 @@ class RemoveMedicineActivity : AppCompatActivity() {
                 for (medicine in userMedicineList){
                     if(input in medicine.bName){
 
-                        // Remove the addMedicine from database
+                        // Remove the user medicine from database
                         mDb.addMedicineDao().delete(medicine)
                         flag =true
 

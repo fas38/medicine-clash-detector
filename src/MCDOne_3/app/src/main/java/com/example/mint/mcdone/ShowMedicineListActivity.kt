@@ -18,6 +18,7 @@ import org.jetbrains.anko.uiThread
 
 class ShowMedicineListActivity : AppCompatActivity() {
 
+    //Initialize Variabbles
     private lateinit var mDb: AddMedicineSingleton
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,11 +34,11 @@ class ShowMedicineListActivity : AppCompatActivity() {
 
         button_medicine_show.setOnClickListener{
             doAsync {
-                // Get the student list from database
+                // Get the user medicine list from database
                 val list = mDb.addMedicineDao().allAddMedicine()
 
                 uiThread {
-                    // Display the students in text view
+                    // Display the user medicines in text view
                     textView.text = ""
                     for (medicine in list){
                             textView.append("${medicine.id} : ${medicine.bName}\n")

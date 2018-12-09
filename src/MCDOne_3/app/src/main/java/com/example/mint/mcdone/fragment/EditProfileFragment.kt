@@ -26,6 +26,7 @@ import java.io.ByteArrayOutputStream
 
 class EditProfileFragment : Fragment() {
 
+    //Initialize Variables
     private val RC_SELECT_IMAGE = 2
     private lateinit var selectedImageBytes: ByteArray
     private var pictureJustChanged = false
@@ -37,6 +38,7 @@ class EditProfileFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_edit_profile, container, false)
 
         view.apply{
+            //Setting up edit button for profile picture
             profile_picture_edit.setOnClickListener{
 
                 val  intent = Intent().apply{
@@ -47,6 +49,7 @@ class EditProfileFragment : Fragment() {
                 startActivityForResult(Intent.createChooser(intent, "Select Image"), RC_SELECT_IMAGE)
             }
 
+            //Setting up save button
             button_save_edit_profile.setOnClickListener {
                 if (::selectedImageBytes.isInitialized)
                     StorageUtil.uploadProfilePhoto(selectedImageBytes) { imagePath ->
@@ -75,6 +78,7 @@ class EditProfileFragment : Fragment() {
             selectedImageBmp.compress(Bitmap.CompressFormat.JPEG, 90, outputStream)
             selectedImageBytes = outputStream.toByteArray()
 
+            //Setting up glide app to hadnle profile picture
             GlideApp.with(this)
                     .load(selectedImageBytes)
                     .into(profile_picture_edit)
@@ -85,7 +89,7 @@ class EditProfileFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        FirestoreUtil.getCurrentUser { user ->
+        FirestoreUtil.getCurrentUser { user -> //Set user information from firestore
             if (this@EditProfileFragment.isVisible) {
                 editText_name.setText(user?.name)
                 if (!pictureJustChanged && user?.profilePicturePath != null)

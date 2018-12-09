@@ -8,13 +8,18 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
 
+//Singleton for getting user informations from firestore
+
 object FirestoreUtil {
+    //Initialize Variabbles
     private val firestoreInstance: FirebaseFirestore by lazy {FirebaseFirestore.getInstance()}
 
+    //Get documenet reference for current user
     private val currentUserDocRef: DocumentReference
         get() = firestoreInstance.document("users/${FirebaseAuth.getInstance().currentUser?.uid
                 ?: throw NullPointerException("UID is null.") as Throwable}")
 
+    //Set up id for current user if new
     fun initCurrentUserIfFirstTime(onComplete: ()-> Unit){
         currentUserDocRef.get().addOnSuccessListener{documentSnapshot ->
             if (!documentSnapshot.exists()){
@@ -51,6 +56,7 @@ object FirestoreUtil {
         }
     }
 
+    //Update method for values in firestore
     fun updateCurrentUser(name: String = "", healthCondition: String = "", profilePicturePath: String? = null){
         val userFieldMap = mutableMapOf<String,Any>()
         if (name.isNotBlank())

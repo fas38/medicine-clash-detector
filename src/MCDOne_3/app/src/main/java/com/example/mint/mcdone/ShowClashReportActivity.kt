@@ -19,6 +19,7 @@ in a separate menu.
 
 class ShowClashReportActivity : AppCompatActivity() {
 
+    //Initialize Variabbles
     private lateinit var userMedDB: AddMedicineSingleton
     private lateinit var prePopulatedDB: MedicineDatabase
 
@@ -27,6 +28,7 @@ class ShowClashReportActivity : AppCompatActivity() {
         setContentView(R.layout.activity_show_clash_report)
         setSupportActionBar(toolbar)
 
+        //Setting up database instances
         userMedDB = AddMedicineSingleton.getInstance(applicationContext)
         prePopulatedDB = MedicineDatabase.getInstance(applicationContext)
 

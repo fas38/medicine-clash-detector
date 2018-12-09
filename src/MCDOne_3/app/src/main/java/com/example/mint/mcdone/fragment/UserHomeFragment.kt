@@ -20,6 +20,7 @@ import kotlinx.android.synthetic.main.nav_header_main.*
 
 class UserHomeFragment : Fragment() {
 
+    //Initialize Variables
     private var pictureJustChanged = false
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -39,7 +40,7 @@ class UserHomeFragment : Fragment() {
 
     override fun onStart() {
         super.onStart()
-        FirestoreUtil.getCurrentUser { user ->
+        FirestoreUtil.getCurrentUser { user -> //Set user information from firestore
             if (this@UserHomeFragment.isVisible) {
                 user_name.setText(user?.name)
                 if (!pictureJustChanged && user?.profilePicturePath != null)

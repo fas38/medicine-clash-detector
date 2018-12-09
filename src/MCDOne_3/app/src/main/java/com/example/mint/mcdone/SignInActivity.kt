@@ -22,8 +22,9 @@ with the help of firebase api
 
 class SignInActivity : AppCompatActivity() {
 
-    private val RC_SIGN_IN = 1
+    private val RC_SIGN_IN = 1  //Request Code to use with Firebase UI
 
+    //Setting up authentication providers
     private val signInProviders =
             listOf(AuthUI.IdpConfig.EmailBuilder()
                     .setAllowNewAccounts(true)
@@ -38,6 +39,7 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
 
+        //Setting up sign in button to connect with Firebase UI
         account_sign_in.setOnClickListener {
             val intent = AuthUI.getInstance().createSignInIntentBuilder()
                     .setAvailableProviders(signInProviders)
@@ -54,7 +56,7 @@ class SignInActivity : AppCompatActivity() {
 
             if(resultCode == Activity.RESULT_OK){
                 val progressDialog = indeterminateProgressDialog("Setting up your account")
-                FirestoreUtil.initCurrentUserIfFirstTime {
+                FirestoreUtil.initCurrentUserIfFirstTime { //Start Main Activity if Sign In/Up is successful
                     startActivity(intentFor<MainActivity>().newTask().clearTask())
                     progressDialog.dismiss()
                 }
@@ -62,7 +64,7 @@ class SignInActivity : AppCompatActivity() {
             }
             else if(resultCode == Activity.RESULT_CANCELED){
                 if (response == null) return
-
+                //Setting up code for error events while logging
                 when(response.error?.errorCode){
                     ErrorCodes.NO_NETWORK ->
                         longSnackbar(constraint_layout, "NO network")

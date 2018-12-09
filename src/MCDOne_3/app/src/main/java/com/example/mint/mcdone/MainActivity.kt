@@ -50,8 +50,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         nav_view.setNavigationItemSelectedListener(this)
 
 
+        //Navbar username setting accroding to the user name
         setNavbarUsername()
 
+        //Setting up Userhome fragment to open as default
         replaceFragmenty(
                 fragment = UserHomeFragment(),
                 allowStateLoss = true,
@@ -77,9 +79,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+        // Handling action bar item clicks here.
         when (item.itemId) {
             R.id.action_settings -> return true
             else -> return super.onOptionsItemSelected(item)
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // Handle navigation view item clicks here.
+        // Handling navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_home -> {
 //                replaceFragment(UserHomeFragment())
@@ -139,6 +139,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_delete_account -> {
 
+                //Destroy local user database
                 doAsync {
 
                     mDb.addMedicineDao().nukeTable()
@@ -156,6 +157,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_logout -> {
 
+                //Destroy local user database
                 doAsync {
 
                     mDb.addMedicineDao().nukeTable()
@@ -177,6 +179,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         return true
     }
 
+    //Navbar username setting accroding to the user name
     fun setNavbarUsername(){
         var name : String?
         FirestoreUtil.getCurrentUser {
