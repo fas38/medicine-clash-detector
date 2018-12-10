@@ -27,6 +27,7 @@ import kotlinx.android.synthetic.main.activity_image_scanner.*
 
 class ImageScannerActivity : AppCompatActivity() {
 
+    //Initialize Variabbles
     private lateinit var svScanner: SurfaceView
     private  lateinit var tvText: TextView
 
@@ -37,6 +38,7 @@ class ImageScannerActivity : AppCompatActivity() {
     private val delay: Long = 10000 //3 seconds
     var scannedText: String? = null
 
+    //Set up the activity to end within the specified time in "delay"
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {
 
@@ -55,9 +57,11 @@ class ImageScannerActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        //Attach the variables with respective views
         svScanner = findViewById(R.id.sv_scanner)
         tvText = findViewById(R.id.tv_text)
 
+        //Setting up textrecognizer
         textRecognizer = TextRecognizer.Builder(this).build()
 
         if(textRecognizer.isOperational){
@@ -75,10 +79,12 @@ class ImageScannerActivity : AppCompatActivity() {
     }
 
     private fun startScanner(){
+        //Setting  up camera source
         cameraSource = CameraSource.Builder(this,textRecognizer)
                 .setFacing(CameraSource.CAMERA_FACING_BACK).setRequestedFps(30f)
                 .setRequestedPreviewSize(1024,768).setAutoFocusEnabled(true).build()
 
+        //Setting up surface view
         svScanner.holder.addCallback(object: SurfaceHolder.Callback2 {
             override fun surfaceRedrawNeeded(holder: SurfaceHolder?) {}
 
@@ -101,6 +107,7 @@ class ImageScannerActivity : AppCompatActivity() {
 
         })
 
+        //Setting up detection process for textrecognizer
         textRecognizer.setProcessor(object: Detector.Processor<TextBlock> {
             override fun release() {}
 

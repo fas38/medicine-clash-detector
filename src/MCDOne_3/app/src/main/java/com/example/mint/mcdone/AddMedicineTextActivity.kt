@@ -21,6 +21,7 @@ with adding medicine by typing or text.
 
 class AddMedicineTextActivity : AppCompatActivity() {
 
+    //Initialize Variabbles
     private lateinit var prePopulatedDB: MedicineDatabase
     private lateinit var mDb: AddMedicineSingleton
 
