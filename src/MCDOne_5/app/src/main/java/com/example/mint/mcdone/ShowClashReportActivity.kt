@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.method.ScrollingMovementMethod
 import com.example.mint.mcdone.model.AddMedicineSingleton
+import com.example.mint.mcdone.model.HealthConditionDatabase
 import com.example.mint.mcdone.model.MedicineDatabase
 import com.example.mint.mcdone.model.addMedicineDao
 
@@ -22,6 +23,7 @@ class ShowClashReportActivity : AppCompatActivity() {
     //Initialize Variabbles
     private lateinit var userMedDB: AddMedicineSingleton
     private lateinit var prePopulatedDB: MedicineDatabase
+    private  lateinit var hDb: HealthConditionDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +33,7 @@ class ShowClashReportActivity : AppCompatActivity() {
         //Setting up database instances
         userMedDB = AddMedicineSingleton.getInstance(applicationContext)
         prePopulatedDB = MedicineDatabase.getInstance(applicationContext)
+        hDb = HealthConditionDatabase.getInstance(applicationContext)
 
         // Make the text view scrollable
         textView_show_clash_report.movementMethod = ScrollingMovementMethod()
@@ -83,6 +86,38 @@ class ShowClashReportActivity : AppCompatActivity() {
                         }
                     }
 
+                }
+            }
+        }
+
+        button_clash_report_condition.setOnClickListener {
+            doAsync {
+                // Get the list from database
+                val userCondition = hDb.healthConditionDao().allconditions()
+                val userList = userMedDB.addMedicineDao().allAddMedicine()
+                val prePopulatedList = prePopulatedDB.medicineDao().getMedicines()
+
+                uiThread {
+                    // Display in text view
+                    textView_show_clash_report.text = ""
+
+                    for(userMed in userList){
+                        for(prePopMed in prePopulatedList){
+                            if(userMed.bName in prePopMed.brandName){
+                                for(uCondition in userCondition){
+                                    for(condition in prePopMed.conditions.split(",")){
+                                        if(condition.toLowerCase() in uCondition.condition.toLowerCase()){
+                                            textView_show_clash_report.append(
+                                                    "${userMed.bName} clashes with your condition ${condition}\n"
+                                            )
+                                        }
+
+                                    }
+
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
