@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.example.mint.mcdone.model.AddMedicine
 import com.example.mint.mcdone.model.AddMedicineSingleton
 import com.example.mint.mcdone.model.MedicineDatabase
+import com.example.mint.mcdone.util.FirestoreUtil
 
 import kotlinx.android.synthetic.main.activity_add_medicine_text.*
 import kotlinx.android.synthetic.main.content_add_medicine_text.*
@@ -49,11 +50,14 @@ class AddMedicineTextActivity : AppCompatActivity() {
                 val prePopulatedList = prePopulatedDB.medicineDao().getMedicines()
 
                 for (medicine in prePopulatedList){
-                    if(addMedicine.bName.toLowerCase() in medicine.brandName.toLowerCase() ||
-                            addMedicine.bName.toLowerCase() in medicine.clashMed.toLowerCase()){
+                    if(addMedicine.bName.toLowerCase() in medicine.brandName.toLowerCase()){
 
                         // Put the addMedicine in database
                         mDb.addMedicineDao().insert(addMedicine)
+
+                        //Put the  medicine in firestore
+                        FirestoreUtil.addCurrentUserMedicine(addMedicine.bName)
+
                         flag =true
 
                     }

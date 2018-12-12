@@ -96,6 +96,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.mint.mcdone.MainActivity" />
         </activity>
+        <activity
+            android:name=".RemoveConditionActivity"
+            android:label="@string/title_activity_remove_condition"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

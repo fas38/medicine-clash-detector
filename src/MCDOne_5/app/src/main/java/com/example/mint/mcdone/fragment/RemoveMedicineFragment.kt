@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.example.mint.mcdone.R
+import com.example.mint.mcdone.RemoveConditionActivity
 import com.example.mint.mcdone.RemoveMedicineActivity
 import kotlinx.android.synthetic.main.fragment_remove_medicine.view.*
 
@@ -24,6 +25,11 @@ class RemoveMedicineFragment : Fragment() {
         view.apply{
             button_remove_medicine.setOnClickListener {
                 val intent = Intent(this@RemoveMedicineFragment.context, RemoveMedicineActivity::class.java)
+                startActivity(intent)
+            }
+
+            button_remove_condition.setOnClickListener {
+                val intent = Intent(this@RemoveMedicineFragment.context, RemoveConditionActivity::class.java)
                 startActivity(intent)
             }
         }

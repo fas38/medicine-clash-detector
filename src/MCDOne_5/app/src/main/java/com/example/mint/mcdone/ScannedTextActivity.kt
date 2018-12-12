@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.mint.mcdone.model.AddMedicine
 import com.example.mint.mcdone.model.AddMedicineSingleton
 import com.example.mint.mcdone.model.MedicineDatabase
+import com.example.mint.mcdone.util.FirestoreUtil
 import kotlinx.android.synthetic.main.activity_scanned_text.*
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.toast
@@ -66,6 +67,10 @@ class ScannedTextActivity : AppCompatActivity() {
                             )
 //                            // Put the addMedicine in database
                             mDb.addMedicineDao().insert(addMedicine)
+
+                            //Put the addMedicine in firestore
+                            FirestoreUtil.addCurrentUserMedicine(addMedicine.bName)
+
                             flag =true
                             s = medicine
 

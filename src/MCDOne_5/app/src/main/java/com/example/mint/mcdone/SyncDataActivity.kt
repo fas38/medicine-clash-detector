@@ -3,6 +3,8 @@ package com.example.mint.mcdone
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
+import com.example.mint.mcdone.model.AddMedicine
+import com.example.mint.mcdone.model.AddMedicineSingleton
 import com.example.mint.mcdone.model.HealthCondition
 import com.example.mint.mcdone.model.HealthConditionDatabase
 import com.example.mint.mcdone.util.FirestoreUtil
@@ -17,7 +19,9 @@ class SyncDataActivity : AppCompatActivity() {
 
     //Initialize Variables
     private lateinit var hDb: HealthConditionDatabase
-    var value = ""
+    private lateinit var mDb: AddMedicineSingleton
+    var health = ""
+    var med= ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,9 +29,14 @@ class SyncDataActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         hDb = HealthConditionDatabase.getInstance(applicationContext)
+        mDb = AddMedicineSingleton.getInstance(applicationContext)
 
         FirestoreUtil.getCurrentUser {
-            value = it!!.healthCondition
+            health = it!!.healthCondition
+        }
+
+        FirestoreUtil.getCurrentUser {
+            med = it!!.medicine
         }
 
 
@@ -38,27 +47,54 @@ class SyncDataActivity : AppCompatActivity() {
             doAsync {
 
 
-                for (condition in value.split(" ")){
+                for (condition in health.split(" ")){
 
-                    // Initialize a new addMedicine
+                    // Initialize a new condition
                     val healthCondition = HealthCondition(id = null,
                             condition = condition
                     )
 
-                    if(condition != "" || condition != " ")
-                        hDb.healthConditionDao().insert(healthCondition)
-                    else
+                    if(condition == "" || condition == " ")
                         continue
+                    else
+                        hDb.healthConditionDao().insert(healthCondition)
+
 
                     }
 
                 uiThread{
-                    toast(value)
+                    toast(health)
                 }
 
             }
 
 
+        }
+
+        button_sync_medicine.setOnClickListener {
+            doAsync {
+
+
+                for (medicine in med.split(" ")){
+
+                    // Initialize a new addMedicine
+                    val addMedicine = AddMedicine(id = null,
+                            bName = medicine
+                    )
+
+                    if(medicine == "" || medicine == " ")
+                        continue
+                    else
+                        mDb.addMedicineDao().insert(addMedicine)
+
+
+                }
+
+                uiThread{
+                    toast(med)
+                }
+
+            }
         }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

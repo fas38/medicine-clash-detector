@@ -15,6 +15,7 @@ object FirestoreUtil {
     private val firestoreInstance: FirebaseFirestore by lazy {FirebaseFirestore.getInstance()}
 
     var health: String? = ""
+    var med: String? = ""
 
     //Get documenet reference for current user
     private val currentUserDocRef: DocumentReference
@@ -26,6 +27,7 @@ object FirestoreUtil {
         currentUserDocRef.get().addOnSuccessListener{documentSnapshot ->
             if (!documentSnapshot.exists()){
                 val newUser = User(FirebaseAuth.getInstance().currentUser?.displayName?:"",
+                        "",
                         "",
                         null)
 
@@ -83,6 +85,51 @@ object FirestoreUtil {
         }
         if (healthCondition.isNotBlank())
             userFieldMap["healthCondition"] = healthCondition + " " + health
+
+        currentUserDocRef.update(userFieldMap)
+    }
+
+    //Update method for values in firestore
+    fun deleteCurrentUserCondition(healthCondition: String = ""){
+        val userFieldMap = mutableMapOf<String,Any>()
+
+        getCurrentUser {
+            health = it?.healthCondition
+        }
+
+        health = health?.replace(healthCondition,"")
+
+        if (healthCondition.isNotBlank())
+            userFieldMap["healthCondition"] = health!!
+
+        currentUserDocRef.update(userFieldMap)
+    }
+
+    //Update method for values in firestore
+    fun addCurrentUserMedicine(medicine: String = ""){
+        val userFieldMap = mutableMapOf<String,Any>()
+
+        getCurrentUser {
+            med = it?.medicine
+        }
+        if (medicine.isNotBlank())
+            userFieldMap["medicine"] = medicine + " " + med
+
+        currentUserDocRef.update(userFieldMap)
+    }
+
+    //Update method for values in firestore
+    fun deleteCurrentUserMedicine(medicine: String = ""){
+        val userFieldMap = mutableMapOf<String,Any>()
+
+        getCurrentUser {
+            med = it?.medicine
+        }
+
+        med = med?.replace(medicine, "")
+
+        if (medicine.isNotBlank())
+            userFieldMap["medicine"] = med!!
 
         currentUserDocRef.update(userFieldMap)
     }

@@ -5,6 +5,7 @@ import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity;
 import com.example.mint.mcdone.model.AddMedicine
 import com.example.mint.mcdone.model.AddMedicineSingleton
+import com.example.mint.mcdone.util.FirestoreUtil
 
 import kotlinx.android.synthetic.main.activity_remove_medicine.*
 import kotlinx.android.synthetic.main.content_remove_medicine.*
@@ -42,6 +43,10 @@ class RemoveMedicineActivity : AppCompatActivity() {
 
                         // Remove the user medicine from database
                         mDb.addMedicineDao().delete(medicine)
+
+                        //Remove user medicine from firestore
+                        FirestoreUtil.deleteCurrentUserMedicine(medicine.bName)
+
                         flag =true
 
                     }
