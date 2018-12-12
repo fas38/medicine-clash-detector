@@ -45,14 +45,36 @@ class ShowClashReportActivity : AppCompatActivity() {
                 uiThread {
                     // Display in text view
                     textView_show_clash_report.text = ""
-                    for (prePopMed in prePopulatedList){
-                        for (userMed in userList){
+                    for (userMed in userList){
+                        for (prePopMed in prePopulatedList){
                             if(userMed.bName in prePopMed.brandName){
                                 for(userMed2 in userList){
-                                    if(prePopMed.clashMed in userMed2.bName)
-                                    textView_show_clash_report.append(
-                                            "${prePopMed.clashMed} will clash with ${userMed.bName}\n"
-                                              )
+                                    if(userMed.bName == userMed2.bName){
+                                        continue
+                                    }
+                                    else{
+                                        for(prePopMed2 in prePopulatedList){
+                                            if(userMed2.bName in prePopMed2.brandName){
+                                                var med = prePopMed2.genericName
+                                                for(med in prePopMed.clashMed.split(",")){
+                                                    var clashReport = textView_show_clash_report.text.toString().split("\n")
+                                                    var flag = true
+                                                    for(s in clashReport){
+                                                        if(s.contains(userMed.bName,ignoreCase = true))
+                                                            if(s.contains(userMed2.bName, ignoreCase = true))
+                                                                flag = false
+                                                    }
+                                                    if(flag){
+                                                        textView_show_clash_report.append(
+                                                                "${userMed2.bName} will clash with ${userMed.bName}\n"
+                                                        )
+                                                    }
+
+                                                }
+                                            }
+                                        }
+                                    }
+
                                 }
                             }
                             else {

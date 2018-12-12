@@ -38,10 +38,11 @@ abstract class MedicineDatabase : RoomDatabase(){
                         .build()
 
         val PREPOPULATE_DATA = listOf(
-                Medicine(1, "Ace", "ParacitamolBP", "Losectil", "Heart Disease"),
-                Medicine(2, "Napa", "ParacitamolBP", "Ace", "High Blood Pressure"),
-                Medicine(3, "Neotack", "OmiprazolBP", "Tufnil", "Kidney"),
-                Medicine(4, "MaXpro", "OmiprazolBP", "Tufnil", "Kidney")
+                Medicine(1, "Ace", "Paracetamol", "Paracetamol,Aspirin", "kidney,liver"),
+                Medicine(2, "Napa", "Paracetamol", "Paracetamol,Aspirin", "kidney,liver"),
+                Medicine(3, "Neotack", "Ranitidine", "Ranitidine,Ketoconazole", ""),
+                Medicine(4, "MaXpro", "Esomeprazole", "Esomeprazole,Ketoconazole", "Lactation"),
+                Medicine(5, "Konadel", "Ketoconazole", "Ketoconazole,Ranitidine", "liver")
                 )
 
     }

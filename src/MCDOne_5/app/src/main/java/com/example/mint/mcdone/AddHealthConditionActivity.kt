@@ -18,7 +18,7 @@ class AddHealthConditionActivity : AppCompatActivity() {
     private lateinit var hDb: HealthConditionDatabase
 
     val conditions = listOf<String>("Cancer", "Kidney", "Heart", "Aids",
-            "BP", "Diabetes", "Migrain", "Acidity")
+            "BP", "Diabetes", "Migrain", "Acidity", "Liver", "Lactation")
 
     var flag = false
 
