@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mint.mcdone">
+
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignInActivity"
+            android:label="Start checking medicine clashes" />
+        <activity
+            android:name=".ImageScannerActivity"
+            android:label="@string/title_activity_image_scanner"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity
+            android:name=".AddMedicineTextActivity"
+            android:label="@string/title_activity_add_medicine_text"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShowMedicineListActivity"
+            android:label="@string/title_activity_show_medicine_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShowClashReportActivity"
+            android:label="@string/title_activity_show_clash_report"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+        <activity android:name=".ScannedTextActivity" />
+        <activity
+            android:name=".RemoveMedicineActivity"
+            android:label="@string/title_activity_remove_medicine"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddHealthConditionActivity"
+            android:label="@string/title_activity_add_health_condition"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SyncDataActivity"
+            android:label="@string/title_activity_sync_data"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RemoveConditionActivity"
+            android:label="@string/title_activity_remove_condition"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.mint.mcdone.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
