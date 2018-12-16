@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahi/AndroidStudioProjects/MCDOne_5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "/home/mahi/AndroidStudioProjects/Medicine Clash Detector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/home/mahi/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.1.0.aar/779dbddd45376970360ba2c315ada161/res/values-b+sr+Latn/values.xml",

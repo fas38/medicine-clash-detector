@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahi/AndroidStudioProjects/MCDOne_5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
+            "outputFile": "/home/mahi/AndroidStudioProjects/Medicine Clash Detector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rES/values-es-rES.xml",
             "map": [
                 {
                     "source": "/home/mahi/.gradle/caches/transforms-1/files-1.1/facebook-login-4.39.0.aar/36d222224d074c7d2026202568c55128/res/values-es-rES/values-es-rES.xml",

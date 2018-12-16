@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahi/AndroidStudioProjects/MCDOne_5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/home/mahi/AndroidStudioProjects/Medicine Clash Detector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "/home/mahi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1e779c607b82b9d4dee16eaddec4a7e7/res/values-ldltr-v21/values-ldltr-v21.xml",

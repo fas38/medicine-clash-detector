@@ -1,4 +1,4 @@
-#Mon Dec 17 00:43:15 BDT 2018
-base.0=/home/mahi/AndroidStudioProjects/MCDOne_5/app/build/intermediates/transforms/dexMerger/debug/5
+#Mon Dec 17 01:14:16 BDT 2018
+base.0=/home/mahi/AndroidStudioProjects/Medicine Clash Detector/app/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex

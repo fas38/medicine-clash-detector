@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahi/AndroidStudioProjects/MCDOne_5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rEC/values-es-rEC.xml",
+            "outputFile": "/home/mahi/AndroidStudioProjects/Medicine Clash Detector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rEC/values-es-rEC.xml",
             "map": [
                 {
                     "source": "/home/mahi/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-3.3.1.aar/55267b61a7e0188b950b4ff8c047af2b/res/values-es-rEC/values-es-rEC.xml",

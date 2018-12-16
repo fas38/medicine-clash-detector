@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/mahi/AndroidStudioProjects/MCDOne_5/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "/home/mahi/AndroidStudioProjects/Medicine Clash Detector/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "/home/mahi/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/3364e93fff818a08f45a0719f7ef166b/res/values-zh-rCN/values-zh-rCN.xml",
