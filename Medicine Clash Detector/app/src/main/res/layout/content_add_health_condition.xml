@@ -12,25 +12,42 @@
         android:id="@+id/button_save_condition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
+        android:layout_marginTop="44dp"
         android:text="Save"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_health_condition" />
 
     <EditText
         android:id="@+id/editText_health_condition"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="42dp"
         android:layout_marginTop="88dp"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Type Health Condition"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/button_save_condition"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Add any of the following conditions that you might have:
+        Cancer, Kidney, Heart, Aids, BP,
+        Diabetes, Migrain, Acidity, Liver,
+        Lactation, Hypersensitivity,
+        Pregnancy, Anaemia"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_save_condition"
+        app:layout_constraintVertical_bias="0.479" />
 </android.support.constraint.ConstraintLayout>

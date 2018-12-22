@@ -18,7 +18,8 @@ class AddHealthConditionActivity : AppCompatActivity() {
     private lateinit var hDb: HealthConditionDatabase
 
     val conditions = listOf<String>("Cancer", "Kidney", "Heart", "Aids",
-            "BP", "Diabetes", "Migrain", "Acidity", "Liver", "Lactation")
+            "BP", "Diabetes", "Migrain", "Acidity", "Liver", "Lactation",
+            "Hypersensitivity","Pregnancy","Anaemia")
 
     var flag = false
 
@@ -40,7 +41,7 @@ class AddHealthConditionActivity : AppCompatActivity() {
 
 
                 for (condition in conditions){
-                    if(healthCondition.condition.toLowerCase() in condition.toLowerCase()){
+                    if(healthCondition.condition.toLowerCase() == condition.toLowerCase()){
 
 
                         hDb.healthConditionDao().insert(healthCondition)

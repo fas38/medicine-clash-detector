@@ -10,17 +10,17 @@
 
     <TextView
         android:id="@+id/textView_show_clash_report"
-        android:layout_width="292dp"
-        android:layout_height="324dp"
+        android:layout_width="296dp"
+        android:layout_height="315dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="64dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.753" />
 
     <Button
         android:id="@+id/button_clash_report_show"
@@ -52,5 +52,18 @@
         app:layout_constraintStart_toEndOf="@+id/button_clash_report_show"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Reference: DGDA, FDA, Square Pharmaceuticals,
+        Beximco Pharmaceuticals, Medex BD"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

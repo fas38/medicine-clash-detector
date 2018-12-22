@@ -50,7 +50,7 @@ class AddMedicineTextActivity : AppCompatActivity() {
                 val prePopulatedList = prePopulatedDB.medicineDao().getMedicines()
 
                 for (medicine in prePopulatedList){
-                    if(addMedicine.bName.toLowerCase() in medicine.brandName.toLowerCase()){
+                    if(addMedicine.bName.toLowerCase() == medicine.brandName.toLowerCase()){
 
                         // Put the addMedicine in database
                         mDb.addMedicineDao().insert(addMedicine)

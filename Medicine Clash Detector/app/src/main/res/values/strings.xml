@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MCDOne</string>
+    <string name="app_name">Medicine Clash Detector</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -19,16 +19,16 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_image_scanner">ImageScannerActivity</string>
-    <string name="title_activity_add_medicine_text">AddMedicineTextActivity</string>
-    <string name="title_activity_show_medicine_list">ShowMedicineListActivity</string>
-    <string name="title_activity_show_clash_report">ShowClashReportActivity</string>
-    <string name="title_activity_remove_medicine">RemoveMedicineActivity</string>
+    <string name="title_activity_add_medicine_text">Add Medicine Text</string>
+    <string name="title_activity_show_medicine_list">Medicine and Condition List</string>
+    <string name="title_activity_show_clash_report">Show Clash Report</string>
+    <string name="title_activity_remove_medicine">Remove Medicine</string>
 
 
     <string name="facebook_application_id" translatable="false">507634609721748</string>
     <string name="facebook_login_protocol_scheme" translatable="false">fb507634609721748</string>
-    <string name="title_activity_add_health_condition">AddHealthConditionActivity</string>
-    <string name="title_activity_sync_data">SyncDataActivity</string>
-    <string name="title_activity_remove_condition">RemoveConditionActivity</string>
+    <string name="title_activity_add_health_condition">Add Health Condition</string>
+    <string name="title_activity_sync_data">Sync Data</string>
+    <string name="title_activity_remove_condition">Remove Condition</string>
 
 </resources>

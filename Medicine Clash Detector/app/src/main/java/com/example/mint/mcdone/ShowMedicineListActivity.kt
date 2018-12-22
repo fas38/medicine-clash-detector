@@ -44,7 +44,8 @@ class ShowMedicineListActivity : AppCompatActivity() {
                     // Display the user medicines in text view
                     textView.text = ""
                     for (medicine in list){
-                            textView.append("${medicine.id} : ${medicine.bName}\n")
+//                            textView.append("${medicine.id} : ${medicine.bName}\n")
+                        textView.append("${medicine.bName}\n")
 
                     }
 
