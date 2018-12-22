@@ -36,7 +36,7 @@ class RemoveConditionActivity : AppCompatActivity() {
                 val input = remove_condition_input.text.toString()
 
                 for (condition in userConditionList){
-                    if(input in condition.condition){
+                    if(input == condition.condition){
 
                         // Remove the user condition from database
                         hDb.healthConditionDao().delete(condition)

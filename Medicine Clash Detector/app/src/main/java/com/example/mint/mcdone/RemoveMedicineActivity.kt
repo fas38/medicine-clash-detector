@@ -39,7 +39,7 @@ class RemoveMedicineActivity : AppCompatActivity() {
                 val input = remove_medicine_input.text.toString()
 
                 for (medicine in userMedicineList){
-                    if(input in medicine.bName){
+                    if(input == medicine.bName){
 
                         // Remove the user medicine from database
                         mDb.addMedicineDao().delete(medicine)

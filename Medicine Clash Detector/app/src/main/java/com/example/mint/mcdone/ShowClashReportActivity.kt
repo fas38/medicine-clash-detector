@@ -50,14 +50,14 @@ class ShowClashReportActivity : AppCompatActivity() {
                     textView_show_clash_report.text = ""
                     for (userMed in userList){
                         for (prePopMed in prePopulatedList){
-                            if(userMed.bName in prePopMed.brandName){
+                            if(userMed.bName == prePopMed.brandName){
                                 for(userMed2 in userList){
                                     if(userMed.bName == userMed2.bName){
                                         continue
                                     }
                                     else{
                                         for(prePopMed2 in prePopulatedList){
-                                            if(userMed2.bName in prePopMed2.brandName){
+                                            if(userMed2.bName == prePopMed2.brandName){
                                                 var med = prePopMed2.genericName
                                                 for(med in prePopMed.clashMed.split(",")){
                                                     var clashReport = textView_show_clash_report.text.toString().split("\n")
@@ -103,10 +103,10 @@ class ShowClashReportActivity : AppCompatActivity() {
 
                     for(userMed in userList){
                         for(prePopMed in prePopulatedList){
-                            if(userMed.bName in prePopMed.brandName){
+                            if(userMed.bName == prePopMed.brandName){
                                 for(uCondition in userCondition){
                                     for(condition in prePopMed.conditions.split(",")){
-                                        if(condition.toLowerCase() in uCondition.condition.toLowerCase()){
+                                        if(condition.toLowerCase() == uCondition.condition.toLowerCase()){
                                             textView_show_clash_report.append(
                                                     "${userMed.bName} clashes with your condition ${condition}\n"
                                             )
