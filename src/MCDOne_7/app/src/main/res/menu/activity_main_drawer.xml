@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/nav_home"/>
+    <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/nav_edit_profile"/>
+    <item
+            android:id="@+id/nav_show_medicine"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_show_medicines"/>
+    <item
+            android:id="@+id/nav_health_clash"
+            android:icon="@drawable/ic_error_outline"
+            android:title="@string/nav_health_clash"/>
+
+    <item
+            android:id="@+id/nav_medicine_clash"
+            android:icon="@drawable/ic_error_outline"
+            android:title="@string/nav_medicine_clash"/>
+    <item
+            android:id="@+id/nav_delete_account"
+            android:icon="@drawable/ic_delete_forever"
+            android:title="@string/nav_delete_account"/>
+    <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app"
+            android:title="@string/nav_log_out"/>
+
+
+
+</menu>
