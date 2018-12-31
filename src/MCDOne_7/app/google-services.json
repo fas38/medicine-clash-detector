@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "200143253857",
+    "firebase_url": "https://mcdone7-10764.firebaseio.com",
+    "project_id": "mcdone7-10764",
+    "storage_bucket": "mcdone7-10764.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200143253857:android:06ab11a69720c540",
+        "android_client_info": {
+          "package_name": "com.example.mint.medicineclashdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200143253857-d1japjqthi3sijf5pe0l7vnghrpsjdcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mint.medicineclashdetector",
+            "certificate_hash": "fc8e653291487fca6433a1e97244d74383f1c100"
+          }
+        },
+        {
+          "client_id": "200143253857-t3q8u2n3vggv63clml4beuvfb6lr484u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkxqPdiBykKbxHoRF6AmSUVWzzMGGWlZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200143253857-t3q8u2n3vggv63clml4beuvfb6lr484u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

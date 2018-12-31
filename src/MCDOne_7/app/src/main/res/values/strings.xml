@@ -6,4 +6,15 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <!-->Nav Bar Values<-->
+    <string name="nav_home">Home</string>
+    <string name="nav_edit_profile">Edit Profile</string>
+    <string name="nav_show_medicines">My Medicines</string>
+    <string name="nav_health_clash">Health Clash Report</string>
+    <string name="nav_medicine_clash">Medicine Clash Report</string>
+    <string name="nav_delete_account">Delete Account</string>
+    <string name="nav_log_out">Log Out</string>
+    <string name="title_activity_show_medicine">ShowMedicineActivity</string>
+
 </resources>
