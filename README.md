@@ -1,4 +1,4 @@
-### Medicine Clash Detector ###
+# Medicine Clash Detector 
 
 In our country, people are always taking medicines in their own without even consulting
 doctors. As a result, they sometimes take medicine which unbeknownst to them do more harm
